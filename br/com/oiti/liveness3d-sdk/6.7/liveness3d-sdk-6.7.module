@@ -3,7 +3,7 @@
   "component": {
     "group": "br.com.oiti",
     "module": "liveness3d-sdk",
-    "version": "6.6",
+    "version": "6.7",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -43,13 +43,13 @@
       ],
       "files": [
         {
-          "name": "liveness3d-sdk-6.6.aar",
-          "url": "liveness3d-sdk-6.6.aar",
-          "size": 2208632,
-          "sha512": "a58d49f62b20bd089dee9e0d0507f820e9e1ad6757aaa02c7b27e7069456160d49b44c4b12fab4d1e35adc4ac448ed219379752777b51b0b355976a786a3a4b3",
-          "sha256": "0f1632ac8e70cc6ac1dc0e7f25c5be1920e1cc3a5462413c8bf9ce41d860ce8a",
-          "sha1": "1465501e8746363fb6a9a3628e33c570d79199fb",
-          "md5": "a00b842b6c3a0835d809c6cfee00a258"
+          "name": "liveness3d-sdk-6.7.aar",
+          "url": "liveness3d-sdk-6.7.aar",
+          "size": 2208658,
+          "sha512": "661120f3029302f21329e2679976b2f0dee054fd85a4d4be653ca8cd7a8255a5a4c70096216b5eb0f6df7b035b7a4b4215d8bd2d63330f8b27812ddc9b817acf",
+          "sha256": "cb9225db1a04c208b5126e0e2e1c2025c77759f84fb79d591839cce30807c200",
+          "sha1": "d0b046e1c954b5c077a9ed87bd5fb05507fad9d5",
+          "md5": "a03b8bf1dc0d1b65633001defb90f17e"
         }
       ]
     },
@@ -286,13 +286,13 @@
       ],
       "files": [
         {
-          "name": "liveness3d-sdk-6.6.aar",
-          "url": "liveness3d-sdk-6.6.aar",
-          "size": 2208632,
-          "sha512": "a58d49f62b20bd089dee9e0d0507f820e9e1ad6757aaa02c7b27e7069456160d49b44c4b12fab4d1e35adc4ac448ed219379752777b51b0b355976a786a3a4b3",
-          "sha256": "0f1632ac8e70cc6ac1dc0e7f25c5be1920e1cc3a5462413c8bf9ce41d860ce8a",
-          "sha1": "1465501e8746363fb6a9a3628e33c570d79199fb",
-          "md5": "a00b842b6c3a0835d809c6cfee00a258"
+          "name": "liveness3d-sdk-6.7.aar",
+          "url": "liveness3d-sdk-6.7.aar",
+          "size": 2208658,
+          "sha512": "661120f3029302f21329e2679976b2f0dee054fd85a4d4be653ca8cd7a8255a5a4c70096216b5eb0f6df7b035b7a4b4215d8bd2d63330f8b27812ddc9b817acf",
+          "sha256": "cb9225db1a04c208b5126e0e2e1c2025c77759f84fb79d591839cce30807c200",
+          "sha1": "d0b046e1c954b5c077a9ed87bd5fb05507fad9d5",
+          "md5": "a03b8bf1dc0d1b65633001defb90f17e"
         }
       ]
     }
