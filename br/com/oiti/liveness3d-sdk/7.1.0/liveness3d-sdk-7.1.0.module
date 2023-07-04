@@ -24,6 +24,57 @@
       },
       "dependencies": [
         {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android-compat",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk8",
           "version": {
@@ -45,11 +96,11 @@
         {
           "name": "liveness3d-sdk-7.1.0.aar",
           "url": "liveness3d-sdk-7.1.0.aar",
-          "size": 2246263,
-          "sha512": "0b6a19f14fa91961915cc468b3846e6d953641945eeb302e7c45e6c7f692264547a508a592cfe5b4920916cdb2ed3caf36bb4ddc020db9765c06bf8fb572ab70",
-          "sha256": "47126ed6bcfae45d26586c0e3098279594cb350bb41b9e750df3f0c6c39961f6",
-          "sha1": "735fef3fac8e5655f43cec3d221bf50c65860e5e",
-          "md5": "24ce85111e37aa9849535a5a7f686d34"
+          "size": 2277077,
+          "sha512": "842d2b65dd6fda1944c1807a3f4750675258541a28cebb30c963606c7ce53e34021e57f1e28ef1afd32d02f723f79dc2f240fa3efa4874296fa3dc535205ddb1",
+          "sha256": "47d3faa913f68ade03d3f2ca41f66bba12a473038c83e10d0c8fcf56eef80a46",
+          "sha1": "1ab64c635a96bd3487ea947abd683b48a243c280",
+          "md5": "13ca6d5f4552d993d832d9dc7d201584"
         }
       ]
     },
@@ -62,6 +113,57 @@
         "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android-compat",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk8",
@@ -100,7 +202,7 @@
           "group": "com.facetec",
           "module": "sdk",
           "version": {
-            "requires": "9.6.30"
+            "requires": "9.6.36"
           },
           "excludes": [
             {
@@ -220,40 +322,6 @@
           "module": "play-services-location",
           "version": {
             "requires": "21.0.1"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "conceal"
-            },
-            {
-              "group": "*",
-              "module": "bcprov-jdk15on"
-            }
-          ]
-        },
-        {
-          "group": "io.insert-koin",
-          "module": "koin-android",
-          "version": {
-            "requires": "3.3.2"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "conceal"
-            },
-            {
-              "group": "*",
-              "module": "bcprov-jdk15on"
-            }
-          ]
-        },
-        {
-          "group": "io.insert-koin",
-          "module": "koin-android-compat",
-          "version": {
-            "requires": "3.3.2"
           },
           "excludes": [
             {
@@ -401,17 +469,51 @@
               "module": "bcprov-jdk15on"
             }
           ]
+        },
+        {
+          "group": "androidx.test",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "androidx.test.ext",
+          "module": "junit-ktx",
+          "version": {
+            "requires": "1.1.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
         }
       ],
       "files": [
         {
           "name": "liveness3d-sdk-7.1.0.aar",
           "url": "liveness3d-sdk-7.1.0.aar",
-          "size": 2246263,
-          "sha512": "0b6a19f14fa91961915cc468b3846e6d953641945eeb302e7c45e6c7f692264547a508a592cfe5b4920916cdb2ed3caf36bb4ddc020db9765c06bf8fb572ab70",
-          "sha256": "47126ed6bcfae45d26586c0e3098279594cb350bb41b9e750df3f0c6c39961f6",
-          "sha1": "735fef3fac8e5655f43cec3d221bf50c65860e5e",
-          "md5": "24ce85111e37aa9849535a5a7f686d34"
+          "size": 2277077,
+          "sha512": "842d2b65dd6fda1944c1807a3f4750675258541a28cebb30c963606c7ce53e34021e57f1e28ef1afd32d02f723f79dc2f240fa3efa4874296fa3dc535205ddb1",
+          "sha256": "47d3faa913f68ade03d3f2ca41f66bba12a473038c83e10d0c8fcf56eef80a46",
+          "sha1": "1ab64c635a96bd3487ea947abd683b48a243c280",
+          "md5": "13ca6d5f4552d993d832d9dc7d201584"
         }
       ]
     }
