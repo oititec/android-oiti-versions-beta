@@ -3,7 +3,7 @@
   "component": {
     "group": "br.com.oiti",
     "module": "liveness3d-sdk",
-    "version": "7.x",
+    "version": "7.x.x",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -75,6 +75,23 @@
           ]
         },
         {
+          "group": "com.aheaditec.talsec.security",
+          "module": "TalsecSecurity-Community",
+          "version": {
+            "requires": "7.0.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk8",
           "version": {
@@ -94,8 +111,8 @@
       ],
       "files": [
         {
-          "name": "liveness3d-sdk-7.x.aar",
-          "url": "liveness3d-sdk-7.x.aar",
+          "name": "liveness3d-sdk-7.x.x.aar",
+          "url": "liveness3d-sdk-7.x.x.aar",
           "size": 2304008,
           "sha512": "1b74a0a75e3e93bbf8ef9ca67745b3e9cfc3319ee0e6387308879e75b6f3be871056513fad19df54d3fb55ef4cfe844b52126af8c19f80b7f12dcae080cc99ec",
           "sha256": "e1de8eb80feaabd7519296067cab6a8c06eba2edf506d2d85c54327b6d1ff09f",
@@ -152,6 +169,23 @@
           "module": "koin-android-compat",
           "version": {
             "requires": "3.3.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "com.aheaditec.talsec.security",
+          "module": "TalsecSecurity-Community",
+          "version": {
+            "requires": "7.0.0"
           },
           "excludes": [
             {
@@ -505,23 +539,6 @@
           ]
         },
         {
-          "group": "com.aheaditec.talsec.security",
-          "module": "TalsecSecurity-Community",
-          "version": {
-            "requires": "7.0.0"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "conceal"
-            },
-            {
-              "group": "*",
-              "module": "bcprov-jdk15on"
-            }
-          ]
-        },
-        {
           "group": "androidx.constraintlayout",
           "module": "constraintlayout",
           "version": {
@@ -541,8 +558,8 @@
       ],
       "files": [
         {
-          "name": "liveness3d-sdk-7.x.aar",
-          "url": "liveness3d-sdk-7.x.aar",
+          "name": "liveness3d-sdk-7.x.x.aar",
+          "url": "liveness3d-sdk-7.x.x.aar",
           "size": 2304008,
           "sha512": "1b74a0a75e3e93bbf8ef9ca67745b3e9cfc3319ee0e6387308879e75b6f3be871056513fad19df54d3fb55ef4cfe844b52126af8c19f80b7f12dcae080cc99ec",
           "sha256": "e1de8eb80feaabd7519296067cab6a8c06eba2edf506d2d85c54327b6d1ff09f",
