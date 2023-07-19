@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.com.oiti</groupId>
   <artifactId>liveness3d-sdk</artifactId>
-  <version>7.1.18</version>
+  <version>7.1.19</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
@@ -127,7 +127,7 @@
     <dependency>
       <groupId>androidx.appcompat</groupId>
       <artifactId>appcompat</artifactId>
-      <version>1.6.1</version>
+      <version>1.5.1</version>
       <scope>runtime</scope>
       <exclusions>
         <exclusion>
