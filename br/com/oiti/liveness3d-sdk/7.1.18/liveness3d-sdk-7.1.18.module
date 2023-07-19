@@ -3,7 +3,7 @@
   "component": {
     "group": "br.com.oiti",
     "module": "liveness3d-sdk",
-    "version": "7.1.17",
+    "version": "7.1.18",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -94,8 +94,8 @@
       ],
       "files": [
         {
-          "name": "liveness3d-sdk-7.1.17.aar",
-          "url": "liveness3d-sdk-7.1.17.aar",
+          "name": "liveness3d-sdk-7.1.18.aar",
+          "url": "liveness3d-sdk-7.1.18.aar",
           "size": 2276748,
           "sha512": "d262b46c219cc2bd267680ff8f8cb0ff697801a8b57a1db3058bee2b4bd88d3770cdaa8035538dbfee40d0fb85500f0f3ef12ffdf656adb206f0da73ff19d360",
           "sha256": "522d23f1277368b16ed033062cdef9c9d37fd9ebfbdd329e422267ff31ef95b2",
@@ -236,7 +236,7 @@
           "group": "androidx.appcompat",
           "module": "appcompat",
           "version": {
-            "requires": "1.5.1"
+            "requires": "1.6.1"
           },
           "excludes": [
             {
@@ -507,8 +507,8 @@
       ],
       "files": [
         {
-          "name": "liveness3d-sdk-7.1.17.aar",
-          "url": "liveness3d-sdk-7.1.17.aar",
+          "name": "liveness3d-sdk-7.1.18.aar",
+          "url": "liveness3d-sdk-7.1.18.aar",
           "size": 2276748,
           "sha512": "d262b46c219cc2bd267680ff8f8cb0ff697801a8b57a1db3058bee2b4bd88d3770cdaa8035538dbfee40d0fb85500f0f3ef12ffdf656adb206f0da73ff19d360",
           "sha256": "522d23f1277368b16ed033062cdef9c9d37fd9ebfbdd329e422267ff31ef95b2",
