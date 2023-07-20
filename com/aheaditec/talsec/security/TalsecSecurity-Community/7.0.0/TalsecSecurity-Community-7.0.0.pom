@@ -11,7 +11,7 @@
   <artifactId>TalsecSecurity-Community</artifactId>
   <version>7.0.0</version>
   <packaging>aar</packaging>
-  <dependencies>
+  <!-- <dependencies>
     <dependency>
       <groupId>com.madgag.spongycastle</groupId>
       <artifactId>pkix</artifactId>
@@ -54,5 +54,5 @@
       <version>2.0.0</version>
       <scope>runtime</scope>
     </dependency>
-  </dependencies>
+  </dependencies> -->
 </project>
