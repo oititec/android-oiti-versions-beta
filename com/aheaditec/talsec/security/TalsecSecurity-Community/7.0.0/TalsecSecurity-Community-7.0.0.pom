@@ -11,18 +11,18 @@
   <artifactId>TalsecSecurity-Community</artifactId>
   <version>7.0.0</version>
   <packaging>aar</packaging>
-  <!-- <dependencies>
+  <dependencies>
     <dependency>
       <groupId>com.madgag.spongycastle</groupId>
       <artifactId>pkix</artifactId>
       <version>1.51.0.0</version>
-      <scope>compile</scope>
+      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.madgag.spongycastle</groupId>
       <artifactId>core</artifactId>
       <version>1.51.0.0</version>
-      <scope>compile</scope>
+      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
@@ -54,5 +54,5 @@
       <version>2.0.0</version>
       <scope>runtime</scope>
     </dependency>
-  </dependencies> -->
+  </dependencies>
 </project>
