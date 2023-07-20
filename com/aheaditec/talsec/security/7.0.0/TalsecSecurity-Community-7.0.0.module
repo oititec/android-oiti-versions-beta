@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.aheaditec.talsec.security",
+    "module": "TalsecSecurity-Community",
+    "version": "7.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "basicReleaseVariantBasicReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.madgag.spongycastle",
+          "module": "pkix",
+          "version": {
+            "requires": "1.51.0.0"
+          }
+        },
+        {
+          "group": "com.madgag.spongycastle",
+          "module": "core",
+          "version": {
+            "requires": "1.51.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TalsecSecurity-Community-7.0.0.aar",
+          "url": "TalsecSecurity-Community-7.0.0.aar",
+          "size": 4233840,
+          "sha512": "81506530929fc678d4eb514550f757e14d93445d27ef17185be209c59b6cdf9c0800e6cb6a2371ae62ae1422b5582bc439be6998cb11476555a303aa36328a80",
+          "sha256": "062591d4ba079974bf941b3ee006eece1eb8be9006a6b07be166486a31bb0e31",
+          "sha1": "5219ffdb307e928e1a1a7d297566c440c5eeda6b",
+          "md5": "25e5f4a275d1bf97cb7b5b85a84f7aca"
+        }
+      ]
+    },
+    {
+      "name": "basicReleaseVariantBasicReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.madgag.spongycastle",
+          "module": "pkix",
+          "version": {
+            "requires": "1.51.0.0"
+          }
+        },
+        {
+          "group": "com.madgag.spongycastle",
+          "module": "core",
+          "version": {
+            "requires": "1.51.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.biometric",
+          "module": "biometric",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-base",
+          "version": {
+            "requires": "18.2.0"
+          }
+        },
+        {
+          "group": "com.github.fingerprintjs",
+          "module": "fingerprint-android",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "TalsecSecurity-Community-7.0.0.aar",
+          "url": "TalsecSecurity-Community-7.0.0.aar",
+          "size": 4233840,
+          "sha512": "81506530929fc678d4eb514550f757e14d93445d27ef17185be209c59b6cdf9c0800e6cb6a2371ae62ae1422b5582bc439be6998cb11476555a303aa36328a80",
+          "sha256": "062591d4ba079974bf941b3ee006eece1eb8be9006a6b07be166486a31bb0e31",
+          "sha1": "5219ffdb307e928e1a1a7d297566c440c5eeda6b",
+          "md5": "25e5f4a275d1bf97cb7b5b85a84f7aca"
+        }
+      ]
+    }
+  ]
+}
