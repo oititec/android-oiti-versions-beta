@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.aheaditec.talsec.security</groupId>
-  <artifactId>rasp</artifactId>
+  <artifactId>TalsecSecurity-Community</artifactId>
   <versioning>
     <release>7.0.0</release>
     <versions>
