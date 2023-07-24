@@ -3,7 +3,7 @@
   "component": {
     "group": "br.com.oiti",
     "module": "liveness3d-sdk",
-    "version": "7.1.4",
+    "version": "7.2.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -94,8 +94,8 @@
       ],
       "files": [
         {
-          "name": "liveness3d-sdk-7.1.4.aar",
-          "url": "liveness3d-sdk-7.1.4.aar",
+          "name": "liveness3d-sdk-7.2.0.aar",
+          "url": "liveness3d-sdk-7.2.0.aar",
           "size": 2342542,
           "sha512": "21e5b7092448d65fa4059438c9efa9f9f17b24af1dea0e03b1496ed8c3f4231e306e740b47299ed390b2b8dbda4424fdc177d9097f75e3cda7465f08859b0ac2",
           "sha256": "d3620e9fd3ce0a83a397b1f7f00e54f924f200b4b66439325080f32fe3827a1e",
@@ -541,8 +541,8 @@
       ],
       "files": [
         {
-          "name": "liveness3d-sdk-7.1.4.aar",
-          "url": "liveness3d-sdk-7.1.4.aar",
+          "name": "liveness3d-sdk-7.2.0.aar",
+          "url": "liveness3d-sdk-7.2.0.aar",
           "size": 2342542,
           "sha512": "21e5b7092448d65fa4059438c9efa9f9f17b24af1dea0e03b1496ed8c3f4231e306e740b47299ed390b2b8dbda4424fdc177d9097f75e3cda7465f08859b0ac2",
           "sha256": "d3620e9fd3ce0a83a397b1f7f00e54f924f200b4b66439325080f32fe3827a1e",
