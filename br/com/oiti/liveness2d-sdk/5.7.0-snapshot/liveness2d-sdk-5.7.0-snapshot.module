@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.oiti",
+    "module": "liveness2d-sdk",
+    "version": "5.7.0-snapshot",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "liveness2d-sdk-5.7.0-snapshot.aar",
+          "url": "liveness2d-sdk-5.7.0-snapshot.aar",
+          "size": 2552028,
+          "sha512": "a83a77b7ca68af806508af756b9f14e28a74667c76bcd2846d0a83a4fed02f64f689f0b11c6d9ee47cb9b55a7848019f991fa676782d0bef3075c8856a4c8ec4",
+          "sha256": "f85369d9bda1409460102ffe9c05450d8233c101699f49cbc8874eda1adf31d1",
+          "sha1": "64e3e84274d7bd6b81e260bc385704663b4bd9a3",
+          "md5": "caaa3c30a9d53d1ba939a14c59da933d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.6.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.20"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "androidx.vectordrawable",
+          "module": "vectordrawable-animated",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.caverock",
+          "module": "androidsvg",
+          "version": {
+            "requires": "1.4"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk16",
+          "version": {
+            "requires": "1.46"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "liveness2d-sdk-5.7.0-snapshot.aar",
+          "url": "liveness2d-sdk-5.7.0-snapshot.aar",
+          "size": 2552028,
+          "sha512": "a83a77b7ca68af806508af756b9f14e28a74667c76bcd2846d0a83a4fed02f64f689f0b11c6d9ee47cb9b55a7848019f991fa676782d0bef3075c8856a4c8ec4",
+          "sha256": "f85369d9bda1409460102ffe9c05450d8233c101699f49cbc8874eda1adf31d1",
+          "sha1": "64e3e84274d7bd6b81e260bc385704663b4bd9a3",
+          "md5": "caaa3c30a9d53d1ba939a14c59da933d"
+        }
+      ]
+    }
+  ]
+}
