@@ -96,11 +96,11 @@
         {
           "name": "liveness3d-sdk-7.2.0.aar",
           "url": "liveness3d-sdk-7.2.0.aar",
-          "size": 2342542,
-          "sha512": "21e5b7092448d65fa4059438c9efa9f9f17b24af1dea0e03b1496ed8c3f4231e306e740b47299ed390b2b8dbda4424fdc177d9097f75e3cda7465f08859b0ac2",
-          "sha256": "d3620e9fd3ce0a83a397b1f7f00e54f924f200b4b66439325080f32fe3827a1e",
-          "sha1": "99aee17acea7edd4cbe892286493c80123fd803a",
-          "md5": "0ebc74938a10ee703e69be7bc8ad15de"
+          "size": 2297301,
+          "sha512": "425ba9ed605eb31fe9e8fbe9912387e01ec8c2b7d4e5c8ba9bbcc51643ecd485c378c25a0397a87c86a7c9f7424274835667fc4ae079136d93c617f3a65fe943",
+          "sha256": "6e151db6df339aabfa1583692d1b865c3a4a63c7d17dbd79658d44f8aca83ac5",
+          "sha1": "0ad279199f16c94f828d4be1a2b8cf2fb33ee2b2",
+          "md5": "b40bbfbaf968cc4e66ea0d03f7e59e81"
         }
       ]
     },
@@ -253,7 +253,7 @@
           "group": "com.google.android.material",
           "module": "material",
           "version": {
-            "requires": "1.9.0"
+            "requires": "1.6.1"
           },
           "excludes": [
             {
@@ -503,51 +503,17 @@
               "module": "bcprov-jdk15on"
             }
           ]
-        },
-        {
-          "group": "com.aheaditec.talsec.security",
-          "module": "TalsecSecurity-Community",
-          "version": {
-            "requires": "7.0.0"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "conceal"
-            },
-            {
-              "group": "*",
-              "module": "bcprov-jdk15on"
-            }
-          ]
-        },
-        {
-          "group": "androidx.constraintlayout",
-          "module": "constraintlayout",
-          "version": {
-            "requires": "2.1.4"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "conceal"
-            },
-            {
-              "group": "*",
-              "module": "bcprov-jdk15on"
-            }
-          ]
         }
       ],
       "files": [
         {
           "name": "liveness3d-sdk-7.2.0.aar",
           "url": "liveness3d-sdk-7.2.0.aar",
-          "size": 2342542,
-          "sha512": "21e5b7092448d65fa4059438c9efa9f9f17b24af1dea0e03b1496ed8c3f4231e306e740b47299ed390b2b8dbda4424fdc177d9097f75e3cda7465f08859b0ac2",
-          "sha256": "d3620e9fd3ce0a83a397b1f7f00e54f924f200b4b66439325080f32fe3827a1e",
-          "sha1": "99aee17acea7edd4cbe892286493c80123fd803a",
-          "md5": "0ebc74938a10ee703e69be7bc8ad15de"
+          "size": 2297301,
+          "sha512": "425ba9ed605eb31fe9e8fbe9912387e01ec8c2b7d4e5c8ba9bbcc51643ecd485c378c25a0397a87c86a7c9f7424274835667fc4ae079136d93c617f3a65fe943",
+          "sha256": "6e151db6df339aabfa1583692d1b865c3a4a63c7d17dbd79658d44f8aca83ac5",
+          "sha1": "0ad279199f16c94f828d4be1a2b8cf2fb33ee2b2",
+          "md5": "b40bbfbaf968cc4e66ea0d03f7e59e81"
         }
       ]
     }
