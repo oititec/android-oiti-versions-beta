@@ -10,7 +10,7 @@ No arquivo `settings.gradle` do projeto, adicione o repositório:
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        maven { url "https://raw.githubusercontent.com/oititec/android-oiti-versions/master" }
+        maven { url "https://raw.githubusercontent.com/oititec/android-oiti-versions-beta/master" }
     }
 }
 ```
@@ -19,7 +19,7 @@ No arquivo  `build.gradle` do módulo/app, adicione a dependência:
 
 ```gradle
 dependencies {
-    implementation 'br.com.oiti:liveness2d-sdk:5.4'
+    implementation 'br.com.oiti:liveness2d-sdk:6.0.0'
 }
 ```
 ###  Changelog
@@ -45,7 +45,7 @@ No arquivo  `build.gradle` do módulo/app, adicione a dependência:
 
 ```gradle
 dependencies { 
-    implementation 'br.com.oiti:liveness3d-sdk:6.2'
+    implementation 'br.com.oiti:liveness3d-sdk:8.0.1'
 }
 ```
 
