@@ -15,7 +15,7 @@
   },
   "variants": [
     {
-      "name": "debugVariantDebugApiPublication",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -35,16 +35,16 @@
         {
           "name": "security-2.0.0.aar",
           "url": "security-2.0.0.aar",
-          "size": 147282,
-          "sha512": "d35b01a4b51b59718027a795089925849f5e569b90a1aa071603fbfd588248d9ce66180a6203d978629c5abbe82970335db8033cb07f65a75cf23830e6e40508",
-          "sha256": "2fa79cc8a533aa0d1b57644f95fa97ac70470e202a951a70df791fd857eb8c85",
-          "sha1": "c93902b2fa43b6c2c46abffbe42e32ef40a2d5bc",
-          "md5": "52c2599bfd52bde84370e52113e23543"
+          "size": 143241,
+          "sha512": "2287c0cb8852ec5e9e341f2712dec1a7bd9763a13b48bcbe60320f486b261274d2bb6bc46338e489d538df303c848989b852fcf65381bf32f4425ddea2db3535",
+          "sha256": "cdaaeac7547dc5dbf52d3151e1cf7505604acd964c058a257dd9fe055e21afe5",
+          "sha1": "a914af1017c760e243e8651e81d8a3e12a6bf2b3",
+          "md5": "e2be7732a0c210556d9ecb39fd0cf4a2"
         }
       ]
     },
     {
-      "name": "debugVariantDebugRuntimePublication",
+      "name": "releaseVariantReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -196,7 +196,7 @@
           "group": "br.com.oiti",
           "module": "network",
           "version": {
-            "requires": "2.0"
+            "requires": "2.0.1"
           }
         }
       ],
@@ -204,11 +204,11 @@
         {
           "name": "security-2.0.0.aar",
           "url": "security-2.0.0.aar",
-          "size": 147282,
-          "sha512": "d35b01a4b51b59718027a795089925849f5e569b90a1aa071603fbfd588248d9ce66180a6203d978629c5abbe82970335db8033cb07f65a75cf23830e6e40508",
-          "sha256": "2fa79cc8a533aa0d1b57644f95fa97ac70470e202a951a70df791fd857eb8c85",
-          "sha1": "c93902b2fa43b6c2c46abffbe42e32ef40a2d5bc",
-          "md5": "52c2599bfd52bde84370e52113e23543"
+          "size": 143241,
+          "sha512": "2287c0cb8852ec5e9e341f2712dec1a7bd9763a13b48bcbe60320f486b261274d2bb6bc46338e489d538df303c848989b852fcf65381bf32f4425ddea2db3535",
+          "sha256": "cdaaeac7547dc5dbf52d3151e1cf7505604acd964c058a257dd9fe055e21afe5",
+          "sha1": "a914af1017c760e243e8651e81d8a3e12a6bf2b3",
+          "md5": "e2be7732a0c210556d9ecb39fd0cf4a2"
         }
       ]
     }
