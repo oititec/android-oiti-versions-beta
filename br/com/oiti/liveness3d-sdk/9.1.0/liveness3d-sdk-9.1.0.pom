@@ -333,25 +333,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>androidx.test</groupId>
-      <artifactId>core-ktx</artifactId>
-      <version>1.5.0</version>
-      <scope>runtime</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>conceal</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>bcprov-jdk15on</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>androidx.test.ext</groupId>
-      <artifactId>junit-ktx</artifactId>
-      <version>1.1.5</version>
+      <groupId>br.com.oiti</groupId>
+      <artifactId>network</artifactId>
+      <version>2.0.1</version>
       <scope>runtime</scope>
       <exclusions>
         <exclusion>
@@ -381,9 +365,25 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>br.com.oiti</groupId>
-      <artifactId>network</artifactId>
-      <version>2.0</version>
+      <groupId>androidx.test</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>conceal</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>bcprov-jdk15on</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>androidx.test.ext</groupId>
+      <artifactId>junit-ktx</artifactId>
+      <version>1.1.5</version>
       <scope>runtime</scope>
       <exclusions>
         <exclusion>

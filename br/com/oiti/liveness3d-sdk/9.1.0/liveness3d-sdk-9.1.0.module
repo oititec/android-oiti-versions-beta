@@ -96,11 +96,11 @@
         {
           "name": "liveness3d-sdk-9.1.0.aar",
           "url": "liveness3d-sdk-9.1.0.aar",
-          "size": 2318260,
-          "sha512": "f7bd3124c65621ee55d3ff80b5458e59d4e0b29439aa3605aa7c8f439e99f3589179a9c68200bb52a127f67cbc365ec3f7c3a4c3ee6c8fe1b73cf7f5784f2338",
-          "sha256": "a10a98b9a2105d2865e788c62bf8255d2a3de006333e0b93113d1e495b52664a",
-          "sha1": "2ffdb1774b6aae1c680208063dc2d887dd07f875",
-          "md5": "84ce86af92159885dc0281690fe65454"
+          "size": 2318604,
+          "sha512": "2b66d16e08621bbd2882314f6dc5c091708715f92c547c3adf2f2849762d3d888ba335cffff4bf39e182fbc31817bc38c9cc023dc52e7c949311acb1bbd7573b",
+          "sha256": "3e5de4067d00434b25b29fd72f87f45ddab31951ce275bdf2cad492c867d902f",
+          "sha1": "af3ab96e3c959df63cd3b0806a20e3c75c0015c3",
+          "md5": "2d891adf58cdbb141b91f71f23d80ca8"
         }
       ]
     },
@@ -454,6 +454,40 @@
           ]
         },
         {
+          "group": "br.com.oiti",
+          "module": "network",
+          "version": {
+            "requires": "2.0.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "br.com.oiti",
+          "module": "security",
+          "version": {
+            "requires": "2.0.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
           "group": "androidx.test",
           "module": "core-ktx",
           "version": {
@@ -486,51 +520,17 @@
               "module": "bcprov-jdk15on"
             }
           ]
-        },
-        {
-          "group": "br.com.oiti",
-          "module": "security",
-          "version": {
-            "requires": "2.0.0"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "conceal"
-            },
-            {
-              "group": "*",
-              "module": "bcprov-jdk15on"
-            }
-          ]
-        },
-        {
-          "group": "br.com.oiti",
-          "module": "network",
-          "version": {
-            "requires": "2.0"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "conceal"
-            },
-            {
-              "group": "*",
-              "module": "bcprov-jdk15on"
-            }
-          ]
         }
       ],
       "files": [
         {
           "name": "liveness3d-sdk-9.1.0.aar",
           "url": "liveness3d-sdk-9.1.0.aar",
-          "size": 2318260,
-          "sha512": "f7bd3124c65621ee55d3ff80b5458e59d4e0b29439aa3605aa7c8f439e99f3589179a9c68200bb52a127f67cbc365ec3f7c3a4c3ee6c8fe1b73cf7f5784f2338",
-          "sha256": "a10a98b9a2105d2865e788c62bf8255d2a3de006333e0b93113d1e495b52664a",
-          "sha1": "2ffdb1774b6aae1c680208063dc2d887dd07f875",
-          "md5": "84ce86af92159885dc0281690fe65454"
+          "size": 2318604,
+          "sha512": "2b66d16e08621bbd2882314f6dc5c091708715f92c547c3adf2f2849762d3d888ba335cffff4bf39e182fbc31817bc38c9cc023dc52e7c949311acb1bbd7573b",
+          "sha256": "3e5de4067d00434b25b29fd72f87f45ddab31951ce275bdf2cad492c867d902f",
+          "sha1": "af3ab96e3c959df63cd3b0806a20e3c75c0015c3",
+          "md5": "2d891adf58cdbb141b91f71f23d80ca8"
         }
       ]
     }
