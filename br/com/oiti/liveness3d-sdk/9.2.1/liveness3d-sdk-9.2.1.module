@@ -2,7 +2,7 @@
   "formatVersion": "1.1",
   "component": {
     "group": "br.com.oiti",
-    "module": "liveness3d-sdk-debug",
+    "module": "liveness3d-sdk",
     "version": "9.2.1",
     "attributes": {
       "org.gradle.status": "release"
@@ -15,7 +15,7 @@
   },
   "variants": [
     {
-      "name": "hmlReleaseVariantHmlReleaseApiPublication",
+      "name": "prdReleaseVariantPrdReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -94,18 +94,18 @@
       ],
       "files": [
         {
-          "name": "liveness3d-sdk-debug-9.2.1.aar",
-          "url": "liveness3d-sdk-debug-9.2.1.aar",
-          "size": 2326985,
-          "sha512": "8d43673e580512415541b4559eb3b19fb44dd3bf1258f9d8e36106097b0a822b2331841151ef075d2abc17c594432f740add3197ff61fb3760177684de7288d5",
-          "sha256": "1ae58e31c35d1748448ed07124be30632cbb4b8acc463a0b8089dd0418e53ce9",
-          "sha1": "73ff133d3ce282316fbe6fe024fa69feaf0afdbb",
-          "md5": "550f2f92aa5a1c9241c2b89d683a8232"
+          "name": "liveness3d-sdk-9.2.1.aar",
+          "url": "liveness3d-sdk-9.2.1.aar",
+          "size": 2326807,
+          "sha512": "83e63f809bbbad826a8f14501e9493d7fb217f030d97e990794a5e51c99275daac95b8b8aad5eb79662b2e6b98d78bccb2f2ec91396457cab9247de3ebbb6ba2",
+          "sha256": "825c12e41f97e66beee9392acf9e499208c916023d450b1ff8417a7840709c65",
+          "sha1": "21e32880925db496673773a7eeb27dfbc85d6a39",
+          "md5": "ff05e5111adbd54e75df69de352b7b71"
         }
       ]
     },
     {
-      "name": "hmlReleaseVariantHmlReleaseRuntimePublication",
+      "name": "prdReleaseVariantPrdReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -524,13 +524,13 @@
       ],
       "files": [
         {
-          "name": "liveness3d-sdk-debug-9.2.1.aar",
-          "url": "liveness3d-sdk-debug-9.2.1.aar",
-          "size": 2326985,
-          "sha512": "8d43673e580512415541b4559eb3b19fb44dd3bf1258f9d8e36106097b0a822b2331841151ef075d2abc17c594432f740add3197ff61fb3760177684de7288d5",
-          "sha256": "1ae58e31c35d1748448ed07124be30632cbb4b8acc463a0b8089dd0418e53ce9",
-          "sha1": "73ff133d3ce282316fbe6fe024fa69feaf0afdbb",
-          "md5": "550f2f92aa5a1c9241c2b89d683a8232"
+          "name": "liveness3d-sdk-9.2.1.aar",
+          "url": "liveness3d-sdk-9.2.1.aar",
+          "size": 2326807,
+          "sha512": "83e63f809bbbad826a8f14501e9493d7fb217f030d97e990794a5e51c99275daac95b8b8aad5eb79662b2e6b98d78bccb2f2ec91396457cab9247de3ebbb6ba2",
+          "sha256": "825c12e41f97e66beee9392acf9e499208c916023d450b1ff8417a7840709c65",
+          "sha1": "21e32880925db496673773a7eeb27dfbc85d6a39",
+          "md5": "ff05e5111adbd54e75df69de352b7b71"
         }
       ]
     }
