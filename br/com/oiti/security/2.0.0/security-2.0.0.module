@@ -35,11 +35,11 @@
         {
           "name": "security-2.0.0.aar",
           "url": "security-2.0.0.aar",
-          "size": 143241,
-          "sha512": "2287c0cb8852ec5e9e341f2712dec1a7bd9763a13b48bcbe60320f486b261274d2bb6bc46338e489d538df303c848989b852fcf65381bf32f4425ddea2db3535",
-          "sha256": "cdaaeac7547dc5dbf52d3151e1cf7505604acd964c058a257dd9fe055e21afe5",
-          "sha1": "a914af1017c760e243e8651e81d8a3e12a6bf2b3",
-          "md5": "e2be7732a0c210556d9ecb39fd0cf4a2"
+          "size": 145670,
+          "sha512": "179c7ecfa139707b9f9329979ab7210801e2da5dec0fcb2b1da209091f0b413d9232f1d74137ee8629c68dfaccc124f32c1f88cf13d8a73f883fe2d261d0f6f5",
+          "sha256": "e20466296f8a1efb4c233bfb7746d2a9ef3927ca7c652ffb3dc481f791cc1c4d",
+          "sha1": "d4f1fbd07649032ffb3c50b1aa2d029e8118616d",
+          "md5": "3c999558fc597fc117e50a8bcda079d8"
         }
       ]
     },
@@ -196,7 +196,7 @@
           "group": "br.com.oiti",
           "module": "network",
           "version": {
-            "requires": "2.0.1"
+            "requires": "2.0"
           }
         }
       ],
@@ -204,11 +204,11 @@
         {
           "name": "security-2.0.0.aar",
           "url": "security-2.0.0.aar",
-          "size": 143241,
-          "sha512": "2287c0cb8852ec5e9e341f2712dec1a7bd9763a13b48bcbe60320f486b261274d2bb6bc46338e489d538df303c848989b852fcf65381bf32f4425ddea2db3535",
-          "sha256": "cdaaeac7547dc5dbf52d3151e1cf7505604acd964c058a257dd9fe055e21afe5",
-          "sha1": "a914af1017c760e243e8651e81d8a3e12a6bf2b3",
-          "md5": "e2be7732a0c210556d9ecb39fd0cf4a2"
+          "size": 145670,
+          "sha512": "179c7ecfa139707b9f9329979ab7210801e2da5dec0fcb2b1da209091f0b413d9232f1d74137ee8629c68dfaccc124f32c1f88cf13d8a73f883fe2d261d0f6f5",
+          "sha256": "e20466296f8a1efb4c233bfb7746d2a9ef3927ca7c652ffb3dc481f791cc1c4d",
+          "sha1": "d4f1fbd07649032ffb3c50b1aa2d029e8118616d",
+          "md5": "3c999558fc597fc117e50a8bcda079d8"
         }
       ]
     }
