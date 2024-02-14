@@ -3,7 +3,7 @@
   "component": {
     "group": "br.com.oiti",
     "module": "liveness2d-sdk",
-    "version": "6.0.1-snapshot-4",
+    "version": "6.0.1-snapshot-8",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -47,13 +47,13 @@
       ],
       "files": [
         {
-          "name": "liveness2d-sdk-6.0.1-snapshot-4.aar",
-          "url": "liveness2d-sdk-6.0.1-snapshot-4.aar",
-          "size": 2653671,
-          "sha512": "973e4035730c2127d1175ceede9a0444447e09a055275354bd9908534ce01a855a1f684fda4b66c1a92990aac09a0faa50659d4a258a3aa65ba98243e85d038b",
-          "sha256": "c4a6a2f89f36e99b84413d3d1c0a7d9fa32723bef5dcdfb04576c20bb56c8325",
-          "sha1": "75fe33ee24fc5c430b0ff3dfcf4f4b2e1d0283a4",
-          "md5": "ab98cd2fd1d53643960f222e065d663b"
+          "name": "liveness2d-sdk-6.0.1-snapshot-8.aar",
+          "url": "liveness2d-sdk-6.0.1-snapshot-8.aar",
+          "size": 2538026,
+          "sha512": "cce57eb2148ee5b99e15df7e13edad8644cd81fc81dd7e61ad86f5be2f11cbb59a2503f65f2500349fa9b8dae90a6b01153f851210af9fa61d42116d8a8521c9",
+          "sha256": "30b6605bdf394b50aad64703437d21404e2e7763932250a19bc8307da0dde790",
+          "sha1": "9479e4db3c384498732511dab203d1a77a258fb5",
+          "md5": "9f27e9f68c7525721138a80c9ee2ef50"
         }
       ]
     },
@@ -137,13 +137,6 @@
           }
         },
         {
-          "group": "androidx.lifecycle",
-          "module": "lifecycle-viewmodel-ktx",
-          "version": {
-            "requires": "2.5.1"
-          }
-        },
-        {
           "group": "com.squareup.okhttp3",
           "module": "logging-interceptor",
           "version": {
@@ -203,19 +196,19 @@
           "group": "br.com.oiti",
           "module": "security",
           "version": {
-            "requires": "3.0.1"
+            "requires": "3.0.0"
           }
         }
       ],
       "files": [
         {
-          "name": "liveness2d-sdk-6.0.1-snapshot-4.aar",
-          "url": "liveness2d-sdk-6.0.1-snapshot-4.aar",
-          "size": 2653671,
-          "sha512": "973e4035730c2127d1175ceede9a0444447e09a055275354bd9908534ce01a855a1f684fda4b66c1a92990aac09a0faa50659d4a258a3aa65ba98243e85d038b",
-          "sha256": "c4a6a2f89f36e99b84413d3d1c0a7d9fa32723bef5dcdfb04576c20bb56c8325",
-          "sha1": "75fe33ee24fc5c430b0ff3dfcf4f4b2e1d0283a4",
-          "md5": "ab98cd2fd1d53643960f222e065d663b"
+          "name": "liveness2d-sdk-6.0.1-snapshot-8.aar",
+          "url": "liveness2d-sdk-6.0.1-snapshot-8.aar",
+          "size": 2538026,
+          "sha512": "cce57eb2148ee5b99e15df7e13edad8644cd81fc81dd7e61ad86f5be2f11cbb59a2503f65f2500349fa9b8dae90a6b01153f851210af9fa61d42116d8a8521c9",
+          "sha256": "30b6605bdf394b50aad64703437d21404e2e7763932250a19bc8307da0dde790",
+          "sha1": "9479e4db3c384498732511dab203d1a77a258fb5",
+          "md5": "9f27e9f68c7525721138a80c9ee2ef50"
         }
       ]
     }
