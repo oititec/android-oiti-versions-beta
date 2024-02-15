@@ -3,7 +3,7 @@
   "component": {
     "group": "br.com.oiti",
     "module": "liveness2d-sdk",
-    "version": "6.0.1-snapshot-7",
+    "version": "6.0.1-snapshot-11",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -47,13 +47,13 @@
       ],
       "files": [
         {
-          "name": "liveness2d-sdk-6.0.1-snapshot-7.aar",
-          "url": "liveness2d-sdk-6.0.1-snapshot-7.aar",
-          "size": 2591052,
-          "sha512": "95e38929078ea2a9495872f3f88707bc436c65b5925caa88d2fc382559e48e215eef4e300132ced76eb2bda910790f23cb241f9d58aa1c0f0df16cb4a7e5b919",
-          "sha256": "3b5ad1df75c4eb0391866905c1a75c8577ccbb5920ee42d1efdb74f6cab0b863",
-          "sha1": "600808702016e3e571677bffb2e48a4fccb4fb7d",
-          "md5": "b9d751fa2c543fad6a7889cafc0e4e2b"
+          "name": "liveness2d-sdk-6.0.1-snapshot-11.aar",
+          "url": "liveness2d-sdk-6.0.1-snapshot-11.aar",
+          "size": 2660941,
+          "sha512": "a0b9a014f8dc349538739539826e1ce042ee8c88507b078115e0be0abebe43b9aa85d87c34941373d3bf1d35e06c9102efc581723586d9ef64799bf6604c0464",
+          "sha256": "87e174cad4219f56f90d71553e8d8f8f5fc1fd3a44820394b21045361f8c8f68",
+          "sha1": "0d15a259041eca2252d4d9e6098496517d7c8d74",
+          "md5": "446a5f24aace2e1cc6a7b3abd9e08c3d"
         }
       ]
     },
@@ -202,13 +202,13 @@
       ],
       "files": [
         {
-          "name": "liveness2d-sdk-6.0.1-snapshot-7.aar",
-          "url": "liveness2d-sdk-6.0.1-snapshot-7.aar",
-          "size": 2591052,
-          "sha512": "95e38929078ea2a9495872f3f88707bc436c65b5925caa88d2fc382559e48e215eef4e300132ced76eb2bda910790f23cb241f9d58aa1c0f0df16cb4a7e5b919",
-          "sha256": "3b5ad1df75c4eb0391866905c1a75c8577ccbb5920ee42d1efdb74f6cab0b863",
-          "sha1": "600808702016e3e571677bffb2e48a4fccb4fb7d",
-          "md5": "b9d751fa2c543fad6a7889cafc0e4e2b"
+          "name": "liveness2d-sdk-6.0.1-snapshot-11.aar",
+          "url": "liveness2d-sdk-6.0.1-snapshot-11.aar",
+          "size": 2660941,
+          "sha512": "a0b9a014f8dc349538739539826e1ce042ee8c88507b078115e0be0abebe43b9aa85d87c34941373d3bf1d35e06c9102efc581723586d9ef64799bf6604c0464",
+          "sha256": "87e174cad4219f56f90d71553e8d8f8f5fc1fd3a44820394b21045361f8c8f68",
+          "sha1": "0d15a259041eca2252d4d9e6098496517d7c8d74",
+          "md5": "446a5f24aace2e1cc6a7b3abd9e08c3d"
         }
       ]
     }
