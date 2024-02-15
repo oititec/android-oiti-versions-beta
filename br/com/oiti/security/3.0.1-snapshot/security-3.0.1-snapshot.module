@@ -3,7 +3,7 @@
   "component": {
     "group": "br.com.oiti",
     "module": "security",
-    "version": "3.0.1-snaptshot",
+    "version": "3.0.1-snapshot",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -33,8 +33,8 @@
       ],
       "files": [
         {
-          "name": "security-3.0.1-snaptshot.aar",
-          "url": "security-3.0.1-snaptshot.aar",
+          "name": "security-3.0.1-snapshot.aar",
+          "url": "security-3.0.1-snapshot.aar",
           "size": 144292,
           "sha512": "b35ecb127c410eb9c6a8cde1ebf9a739d48337adade5fd1cdc61e3ee6cbf8c79b6667b1e2c189767d04358c10481f4c5b71dce1a6d95c9086c9ac1e3e7200dd9",
           "sha256": "287a98c5d68ceefcf5c870fff3916c4fa6ded5af6b9b1402679c71068051a4f0",
@@ -202,8 +202,8 @@
       ],
       "files": [
         {
-          "name": "security-3.0.1-snaptshot.aar",
-          "url": "security-3.0.1-snaptshot.aar",
+          "name": "security-3.0.1-snapshot.aar",
+          "url": "security-3.0.1-snapshot.aar",
           "size": 144292,
           "sha512": "b35ecb127c410eb9c6a8cde1ebf9a739d48337adade5fd1cdc61e3ee6cbf8c79b6667b1e2c189767d04358c10481f4c5b71dce1a6d95c9086c9ac1e3e7200dd9",
           "sha256": "287a98c5d68ceefcf5c870fff3916c4fa6ded5af6b9b1402679c71068051a4f0",

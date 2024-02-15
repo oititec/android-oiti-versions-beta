@@ -3,8 +3,8 @@
   <groupId>br.com.oiti</groupId>
   <artifactId>security</artifactId>
   <versioning>
-    <latest>3.0.0_snapshot</latest>
-    <release>3.0.0_snapshot</release>
+    <latest>3.0.1-snapshot</latest>
+    <release>3.0.1-snapshot</release>
     <versions>
       <version>1.0</version>
       <version>1.1</version>
@@ -15,7 +15,8 @@
       <version>2.0.3</version>
       <version>2.0.4</version>
       <version>3.0.0_snapshot</version>
+      <version>3.0.1-snapshot</version>
     </versions>
-    <lastUpdated>2023110928215705</lastUpdated>
+    <lastUpdated>20240215115628</lastUpdated>
   </versioning>
 </metadata>
