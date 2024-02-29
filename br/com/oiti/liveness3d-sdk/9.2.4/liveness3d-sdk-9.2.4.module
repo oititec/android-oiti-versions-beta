@@ -96,11 +96,11 @@
         {
           "name": "liveness3d-sdk-9.2.4.aar",
           "url": "liveness3d-sdk-9.2.4.aar",
-          "size": 2346053,
-          "sha512": "73e56ce03ba4c288958ea3380eb037e7ff65e6d3e8c23a8a5466d8af92f2cbcd2273b34017e111b1000a331eb7d391099db0a8ad7a20a05b1609d07df8073ab9",
-          "sha256": "d072e4954d748070935415220e3aba2052412440ab4fc3813be49512b85a196e",
-          "sha1": "67fcc5b9c2b51be733e71776fe73e66732554990",
-          "md5": "b402f8f6c53482a10339d52624be9549"
+          "size": 2352588,
+          "sha512": "5a45c79f03849b3d5484c7b0c3e3f77a7eeb80934e03eeafaa7e462e92ebe46dbb862ca0dcab3bbdee7c366a8d517ae1dd2c1b83eaf4c144f90f000b630e9da2",
+          "sha256": "9f3d0d2771e0f9085c3c90f299e6d3406ddc256e7c2ffdd0939080fca0b5e624",
+          "sha1": "0f01d7bc81261b44c471837b0a744aa696d95547",
+          "md5": "dc418d10c68c79e3e920648513b3b9fd"
         }
       ]
     },
@@ -202,7 +202,7 @@
           "group": "com.facetec",
           "module": "sdk",
           "version": {
-            "requires": "9.6.63"
+            "requires": "9.6.71"
           },
           "excludes": [
             {
@@ -454,40 +454,6 @@
           ]
         },
         {
-          "group": "br.com.oiti",
-          "module": "network",
-          "version": {
-            "requires": "2.0"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "conceal"
-            },
-            {
-              "group": "*",
-              "module": "bcprov-jdk15on"
-            }
-          ]
-        },
-        {
-          "group": "br.com.oiti",
-          "module": "security",
-          "version": {
-            "requires": "2.0.4"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "conceal"
-            },
-            {
-              "group": "*",
-              "module": "bcprov-jdk15on"
-            }
-          ]
-        },
-        {
           "group": "androidx.test",
           "module": "core-ktx",
           "version": {
@@ -520,17 +486,51 @@
               "module": "bcprov-jdk15on"
             }
           ]
+        },
+        {
+          "group": "br.com.oiti",
+          "module": "security",
+          "version": {
+            "requires": "3.0.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
+        },
+        {
+          "group": "br.com.oiti",
+          "module": "network",
+          "version": {
+            "requires": "2.0.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "conceal"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk15on"
+            }
+          ]
         }
       ],
       "files": [
         {
           "name": "liveness3d-sdk-9.2.4.aar",
           "url": "liveness3d-sdk-9.2.4.aar",
-          "size": 2346053,
-          "sha512": "73e56ce03ba4c288958ea3380eb037e7ff65e6d3e8c23a8a5466d8af92f2cbcd2273b34017e111b1000a331eb7d391099db0a8ad7a20a05b1609d07df8073ab9",
-          "sha256": "d072e4954d748070935415220e3aba2052412440ab4fc3813be49512b85a196e",
-          "sha1": "67fcc5b9c2b51be733e71776fe73e66732554990",
-          "md5": "b402f8f6c53482a10339d52624be9549"
+          "size": 2352588,
+          "sha512": "5a45c79f03849b3d5484c7b0c3e3f77a7eeb80934e03eeafaa7e462e92ebe46dbb862ca0dcab3bbdee7c366a8d517ae1dd2c1b83eaf4c144f90f000b630e9da2",
+          "sha256": "9f3d0d2771e0f9085c3c90f299e6d3406ddc256e7c2ffdd0939080fca0b5e624",
+          "sha1": "0f01d7bc81261b44c471837b0a744aa696d95547",
+          "md5": "dc418d10c68c79e3e920648513b3b9fd"
         }
       ]
     }

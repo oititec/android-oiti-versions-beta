@@ -95,7 +95,7 @@
     <dependency>
       <groupId>com.facetec</groupId>
       <artifactId>sdk</artifactId>
-      <version>9.6.63</version>
+      <version>9.6.71</version>
       <scope>runtime</scope>
       <exclusions>
         <exclusion>
@@ -333,38 +333,6 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>br.com.oiti</groupId>
-      <artifactId>network</artifactId>
-      <version>2.0</version>
-      <scope>runtime</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>conceal</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>bcprov-jdk15on</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>br.com.oiti</groupId>
-      <artifactId>security</artifactId>
-      <version>2.0.4</version>
-      <scope>runtime</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>conceal</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>bcprov-jdk15on</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
       <groupId>androidx.test</groupId>
       <artifactId>core-ktx</artifactId>
       <version>1.5.0</version>
@@ -384,6 +352,38 @@
       <groupId>androidx.test.ext</groupId>
       <artifactId>junit-ktx</artifactId>
       <version>1.1.5</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>conceal</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>bcprov-jdk15on</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>br.com.oiti</groupId>
+      <artifactId>security</artifactId>
+      <version>3.0.2</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>conceal</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>bcprov-jdk15on</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>br.com.oiti</groupId>
+      <artifactId>network</artifactId>
+      <version>2.0.2</version>
       <scope>runtime</scope>
       <exclusions>
         <exclusion>
