@@ -1,8 +1,8 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "br.com.oiti.certiface",
-    "module": "oiti-core-sdk",
+    "group": "br.com.oiti",
+    "module": "core-sdk",
     "version": "1.0",
     "attributes": {
       "org.gradle.status": "release"
@@ -39,8 +39,8 @@
       ],
       "files": [
         {
-          "name": "oiti-core-sdk-1.0.aar",
-          "url": "oiti-core-sdk-1.0.aar",
+          "name": "core-sdk-1.0.aar",
+          "url": "core-sdk-1.0.aar",
           "size": 268498,
           "sha512": "957a6c4ecea582b608733fa5fcc76c11c05073dcc7ba51fb1b5c63237f1d6c519d16a0bd77e8ebba5e593fd04c769b9f24cd0e141ea966031c459f1597cc4b85",
           "sha256": "1e3b1c8ae0ca150b43ec97a715f7f943f711b63e36cddf1c69318e7a14637fa3",
@@ -360,8 +360,8 @@
       ],
       "files": [
         {
-          "name": "oiti-core-sdk-1.0.aar",
-          "url": "oiti-core-sdk-1.0.aar",
+          "name": "core-sdk-1.0.aar",
+          "url": "core-sdk-1.0.aar",
           "size": 268498,
           "sha512": "957a6c4ecea582b608733fa5fcc76c11c05073dcc7ba51fb1b5c63237f1d6c519d16a0bd77e8ebba5e593fd04c769b9f24cd0e141ea966031c459f1597cc4b85",
           "sha256": "1e3b1c8ae0ca150b43ec97a715f7f943f711b63e36cddf1c69318e7a14637fa3",
@@ -382,8 +382,8 @@
       },
       "files": [
         {
-          "name": "oiti-core-sdk-1.0-sources.jar",
-          "url": "oiti-core-sdk-1.0-sources.jar",
+          "name": "core-sdk-1.0-sources.jar",
+          "url": "core-sdk-1.0-sources.jar",
           "size": 99205,
           "sha512": "5ca863fdc47ac0d1bd30ab00f472403ff0137dc107207891d2998f87bc89c6abcbfc2ab8ab4ed42d29e2c8966538762978f0a59088173168d3b13e85a652587c",
           "sha256": "137ecbf9e934c106faa102be5f1b467c9c40977aff887a693b079cff69a9a670",
