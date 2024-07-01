@@ -2,7 +2,7 @@
   "formatVersion": "1.1",
   "component": {
     "group": "br.com.oiti.certiface",
-    "module": "core",
+    "module": "multimedia",
     "version": "1.0.0",
     "attributes": {
       "org.gradle.status": "release"
@@ -39,13 +39,13 @@
       ],
       "files": [
         {
-          "name": "core-1.0.0.aar",
-          "url": "core-1.0.0.aar",
-          "size": 648391,
-          "sha512": "2a3638649aef55cdde220ed6a4c07c6581f9282aa3b6d0b51ea4f5a328f30fa95b12776f92d2535655efa4c738e5a8846e9b8bec542f5dc7df076754f7cfbe2a",
-          "sha256": "666be02581f4a20d78c24aa1930893ae26d82a81145b5777eb9b6221ec667e63",
-          "sha1": "70c602585604d0cebc30c734dab6697589f2987b",
-          "md5": "56133abc7bb31fe43fadc4dcdcdbbfeb"
+          "name": "multimedia-1.0.0.aar",
+          "url": "multimedia-1.0.0.aar",
+          "size": 89227,
+          "sha512": "d4387a87eb59c29e2be80ced31c3562b8c1783f42792b4de194ce0d18cee27e31d0567ef4da7e46d060589eb884ff3c74b76eb35c2bce99a96ddec8a34d266b5",
+          "sha256": "28f1bce24fe38b46af9fa2f251b4f5a73826e54eca9b1661dc383a106d9613e4",
+          "sha1": "c785f79c7139daaabf24b30e5fb27ad3a1650206",
+          "md5": "48bec83753447806cfe3933eee337d45"
         }
       ]
     },
@@ -57,34 +57,6 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "dependencies": [
-        {
-          "group": "androidx.lifecycle",
-          "module": "lifecycle-viewmodel-ktx",
-          "version": {
-            "requires": "2.8.2"
-          }
-        },
-        {
-          "group": "androidx.lifecycle",
-          "module": "lifecycle-runtime-compose",
-          "version": {
-            "requires": "2.8.2"
-          }
-        },
-        {
-          "group": "androidx.lifecycle",
-          "module": "lifecycle-runtime-ktx",
-          "version": {
-            "requires": "2.8.2"
-          }
-        },
-        {
-          "group": "androidx.lifecycle",
-          "module": "lifecycle-viewmodel-savedstate",
-          "version": {
-            "requires": "2.8.2"
-          }
-        },
         {
           "group": "androidx.compose.material3",
           "module": "material3"
@@ -150,13 +122,6 @@
           }
         },
         {
-          "group": "androidx.constraintlayout",
-          "module": "constraintlayout-compose",
-          "version": {
-            "requires": "1.0.1"
-          }
-        },
-        {
           "group": "androidx.lifecycle",
           "module": "lifecycle-viewmodel-compose",
           "version": {
@@ -164,94 +129,80 @@
           }
         },
         {
-          "group": "androidx.datastore",
-          "module": "datastore-preferences",
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
           "version": {
-            "requires": "1.1.1"
+            "requires": "2.8.2"
           }
         },
         {
-          "group": "com.google.dagger",
-          "module": "hilt-android",
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
           "version": {
-            "requires": "2.51.1"
+            "requires": "2.8.2"
           }
         },
         {
-          "group": "com.android.support",
-          "module": "support-annotations",
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
           "version": {
-            "requires": "28.0.0"
+            "requires": "2.8.2"
           }
         },
         {
-          "group": "androidx.startup",
-          "module": "startup-runtime",
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
           "version": {
-            "requires": "1.1.1"
+            "requires": "2.8.2"
           }
         },
         {
-          "group": "androidx.hilt",
-          "module": "hilt-work",
+          "group": "androidx.camera",
+          "module": "camera-core",
           "version": {
-            "requires": "1.2.0"
+            "requires": "1.3.4"
           }
         },
         {
-          "group": "br.com.oiti.certiface",
-          "module": "multimedia",
+          "group": "androidx.camera",
+          "module": "camera-camera2",
           "version": {
-            "requires": "1.0.0"
+            "requires": "1.3.4"
           }
         },
         {
-          "group": "br.com.oiti.certiface",
-          "module": "designSystem",
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
           "version": {
-            "requires": "1.0.0"
+            "requires": "1.3.4"
           }
         },
         {
-          "group": "br.com.oiti.certiface",
-          "module": "facetec",
+          "group": "androidx.camera",
+          "module": "camera-video",
           "version": {
-            "requires": "1.0.0"
+            "requires": "1.3.4"
           }
         },
         {
-          "group": "br.com.oiti.certiface",
-          "module": "docCore",
+          "group": "androidx.camera",
+          "module": "camera-view",
           "version": {
-            "requires": "1.0.0"
+            "requires": "1.3.4"
           }
         },
         {
-          "group": "br.com.oiti.certiface",
-          "module": "iproov",
+          "group": "androidx.camera",
+          "module": "camera-extensions",
           "version": {
-            "requires": "1.0.0"
+            "requires": "1.3.4"
           }
         },
         {
-          "group": "br.com.oiti.certiface",
-          "module": "remote",
+          "group": "com.google.accompanist",
+          "module": "accompanist-permissions",
           "version": {
-            "requires": "1.0.0"
-          }
-        },
-        {
-          "group": "br.com.oiti.certiface",
-          "module": "local",
-          "version": {
-            "requires": "1.0.0"
-          }
-        },
-        {
-          "group": "br.com.oiti.certiface",
-          "module": "deviceIntelligence",
-          "version": {
-            "requires": "1.0.0"
+            "requires": "0.34.0"
           }
         },
         {
@@ -262,24 +213,10 @@
           }
         },
         {
-          "group": "com.squareup.retrofit2",
-          "module": "retrofit",
+          "group": "com.google.dagger",
+          "module": "hilt-android",
           "version": {
-            "requires": "2.11.0"
-          }
-        },
-        {
-          "group": "com.squareup.retrofit2",
-          "module": "converter-gson",
-          "version": {
-            "requires": "2.11.0"
-          }
-        },
-        {
-          "group": "com.squareup.okhttp3",
-          "module": "logging-interceptor",
-          "version": {
-            "requires": "4.12.0"
+            "requires": "2.51.1"
           }
         },
         {
@@ -287,13 +224,6 @@
           "module": "core-ktx",
           "version": {
             "requires": "1.13.1"
-          }
-        },
-        {
-          "group": "androidx.camera",
-          "module": "camera-view",
-          "version": {
-            "requires": "1.3.4"
           }
         },
         {
@@ -362,13 +292,13 @@
       ],
       "files": [
         {
-          "name": "core-1.0.0.aar",
-          "url": "core-1.0.0.aar",
-          "size": 648391,
-          "sha512": "2a3638649aef55cdde220ed6a4c07c6581f9282aa3b6d0b51ea4f5a328f30fa95b12776f92d2535655efa4c738e5a8846e9b8bec542f5dc7df076754f7cfbe2a",
-          "sha256": "666be02581f4a20d78c24aa1930893ae26d82a81145b5777eb9b6221ec667e63",
-          "sha1": "70c602585604d0cebc30c734dab6697589f2987b",
-          "md5": "56133abc7bb31fe43fadc4dcdcdbbfeb"
+          "name": "multimedia-1.0.0.aar",
+          "url": "multimedia-1.0.0.aar",
+          "size": 89227,
+          "sha512": "d4387a87eb59c29e2be80ced31c3562b8c1783f42792b4de194ce0d18cee27e31d0567ef4da7e46d060589eb884ff3c74b76eb35c2bce99a96ddec8a34d266b5",
+          "sha256": "28f1bce24fe38b46af9fa2f251b4f5a73826e54eca9b1661dc383a106d9613e4",
+          "sha1": "c785f79c7139daaabf24b30e5fb27ad3a1650206",
+          "md5": "48bec83753447806cfe3933eee337d45"
         }
       ]
     },
@@ -384,13 +314,13 @@
       },
       "files": [
         {
-          "name": "core-1.0.0-sources.jar",
-          "url": "core-1.0.0-sources.jar",
-          "size": 160177,
-          "sha512": "1e17316744790735aecdff8462ecbde559d9afe9d5e2a4e4cdf741e07039e83dd7632a032c4ea30bc7b2fd233fe198e3d21b1488398def3ef3d99b4de9987c63",
-          "sha256": "bd6d34baad1af3c6d699882449d5c0026d958a9932c56c9caa087d8572a55caa",
-          "sha1": "9ca5ce463283da859a397ef53d46e5302b62ab22",
-          "md5": "168e5f6ba05facf30cb1148d6a285ff7"
+          "name": "multimedia-1.0.0-sources.jar",
+          "url": "multimedia-1.0.0-sources.jar",
+          "size": 16083,
+          "sha512": "125da604bb6e4c5e1f86734450bb56e85f7dd22a7a8065fef658e432cbe917472748def992a2e2b6ff353edf6fc7b7eb883e94fb5448415e5ee4f336c4b9a554",
+          "sha256": "7ddf3916019cf4aaa5ac44702d76b034136835fb9fd3c48eff5b1962ea76ffb9",
+          "sha1": "c716c34acc46d99adc298e46416cbdc3060d89f9",
+          "md5": "56a70ace72bc0651578b736ca4046a51"
         }
       ]
     }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>br.com.oiti.certiface</groupId>
-  <artifactId>core</artifactId>
+  <artifactId>docCore</artifactId>
   <versioning>
     <latest>1.0.0</latest>
     <release>1.0.0</release>

@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.oiti.certiface",
+    "module": "remote",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-1.0.0.aar",
+          "url": "remote-1.0.0.aar",
+          "size": 21724,
+          "sha512": "04307dcb98e24f0ef8c94262eb224d972b2c2ec2443a7199220aa2b112e2ef5247b22ac160de03b1cca6f241324819ef367e03a931b88a60ed1516fe084cc93b",
+          "sha256": "69ca5c769640f092b3c37944f936d2b06334e0f09fab6a1ab0f89a06b3c9008d",
+          "sha1": "c992472e36308da70fb8b12e03fcdf29f7c7f087",
+          "md5": "52f07fd8dc32961d13d1f1c9f956d294"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android",
+          "version": {
+            "requires": "2.51.1"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-1.0.0.aar",
+          "url": "remote-1.0.0.aar",
+          "size": 21724,
+          "sha512": "04307dcb98e24f0ef8c94262eb224d972b2c2ec2443a7199220aa2b112e2ef5247b22ac160de03b1cca6f241324819ef367e03a931b88a60ed1516fe084cc93b",
+          "sha256": "69ca5c769640f092b3c37944f936d2b06334e0f09fab6a1ab0f89a06b3c9008d",
+          "sha1": "c992472e36308da70fb8b12e03fcdf29f7c7f087",
+          "md5": "52f07fd8dc32961d13d1f1c9f956d294"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "remote-1.0.0-sources.jar",
+          "url": "remote-1.0.0-sources.jar",
+          "size": 14111,
+          "sha512": "ffeb0bc41fd559f2da48aace78e5c5ef07d5cbf331cbd65fa356845576045ac241b152234239abcdecd9f69961f9a393b7f38656a1733f11f92f67c40cdf102a",
+          "sha256": "a41773f9b17740c8a9ef64bcd3889ce1640b391e0f924f9db36a8cb964c95912",
+          "sha1": "ce867f3b1f7a05198578cb3cd9148121d7a85b66",
+          "md5": "efb0c86a3fdf2420dea38ebf72855d93"
+        }
+      ]
+    }
+  ]
+}
