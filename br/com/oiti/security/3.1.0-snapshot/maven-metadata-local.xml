@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>br.com.oiti</groupId>
+  <artifactId>security</artifactId>
+  <versioning>
+    <lastUpdated>20240705132938</lastUpdated>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>3.1.0-snapshot</value>
+        <updated>20240705132938</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.1.0-snapshot</value>
+        <updated>20240705132938</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>3.1.0-snapshot</value>
+        <updated>20240705132938</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>3.1.0-snapshot</version>
+</metadata>
