@@ -34,11 +34,11 @@
         {
           "name": "commons-1.0.0-ofuscated.aar",
           "url": "commons-1.0.0-ofuscated.aar",
-          "size": 1137,
-          "sha512": "86322922e60f33bdcdfd4e5c87a5b310d24b28d41baf43d8580ccddc9a14149f10a9d93fec9c75f892389effb56a7f1691a9dfe808f393fb9ca251f0cd718eca",
-          "sha256": "929a7b6a4348c300abea8cb1ffe3efba854d341c8fb59983b34f982d3089b28e",
-          "sha1": "4387648630fa3ab0a2ab2423c0e78bdc198462a6",
-          "md5": "74966ad06294672c1e46e09be345d114"
+          "size": 12412,
+          "sha512": "37d99e6dd9a7b487e4cd9f12aa5abd6c622cf0518d8e8959f4f53e6addc0b3dee05513a3b13896479f3e4a04efea3b30ef3128c1b1d1b21d167826e52d27f8bc",
+          "sha256": "12354b12cc3a3dfd720deac1cf6ca58478962a3770832c1062bb838efd09bf5a",
+          "sha1": "1b6ee9e103b821b9008ca23b14b4765a76ac3a6c",
+          "md5": "a50fc144e78dde9a293e7944cb5f4061"
         }
       ]
     },
@@ -104,11 +104,11 @@
         {
           "name": "commons-1.0.0-ofuscated.aar",
           "url": "commons-1.0.0-ofuscated.aar",
-          "size": 1137,
-          "sha512": "86322922e60f33bdcdfd4e5c87a5b310d24b28d41baf43d8580ccddc9a14149f10a9d93fec9c75f892389effb56a7f1691a9dfe808f393fb9ca251f0cd718eca",
-          "sha256": "929a7b6a4348c300abea8cb1ffe3efba854d341c8fb59983b34f982d3089b28e",
-          "sha1": "4387648630fa3ab0a2ab2423c0e78bdc198462a6",
-          "md5": "74966ad06294672c1e46e09be345d114"
+          "size": 12412,
+          "sha512": "37d99e6dd9a7b487e4cd9f12aa5abd6c622cf0518d8e8959f4f53e6addc0b3dee05513a3b13896479f3e4a04efea3b30ef3128c1b1d1b21d167826e52d27f8bc",
+          "sha256": "12354b12cc3a3dfd720deac1cf6ca58478962a3770832c1062bb838efd09bf5a",
+          "sha1": "1b6ee9e103b821b9008ca23b14b4765a76ac3a6c",
+          "md5": "a50fc144e78dde9a293e7944cb5f4061"
         }
       ]
     },
@@ -126,11 +126,11 @@
         {
           "name": "commons-1.0.0-ofuscated-sources.jar",
           "url": "commons-1.0.0-ofuscated-sources.jar",
-          "size": 10529,
-          "sha512": "cdc66015a7b102dea0f9a30bdb294504846727f02aae9790be7b99df4b3fd40ea5d1bfa60e6e997a77f448eb87d1dffb566a42769ad95f2a542f063904849c55",
-          "sha256": "a12eeda6274fd0fbf3d3c269bce49f40f55db2f09fc20b2f2834cb72e8f8e272",
-          "sha1": "0664f2222ad14c337920669bc540541b578d3967",
-          "md5": "72026a270486029fc973148329485a2c"
+          "size": 10777,
+          "sha512": "a704979f88fcd96168d0abc571820a05438b33563564ea43e828de2defa240c888eeed7b16815e53bf26385b26e562635ffa22c0c9e53e0dd162fb3fc45d6fdc",
+          "sha256": "4b7d18df4209defe94f436898535bed5a0ba51474625b6ab9743195c288370d9",
+          "sha1": "12f3286ab6002b2aa1ee6fd64ae3a8c464192926",
+          "md5": "85757191f874f543680d5f1b77925824"
         }
       ]
     }
