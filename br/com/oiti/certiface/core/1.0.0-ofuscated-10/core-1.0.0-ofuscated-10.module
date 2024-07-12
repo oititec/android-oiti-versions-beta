@@ -3,7 +3,7 @@
   "component": {
     "group": "br.com.oiti.certiface",
     "module": "core",
-    "version": "1.0.0-ofuscated-7",
+    "version": "1.0.0-ofuscated-10",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -39,13 +39,13 @@
       ],
       "files": [
         {
-          "name": "core-1.0.0-ofuscated-7.aar",
-          "url": "core-1.0.0-ofuscated-7.aar",
-          "size": 357435,
-          "sha512": "2eebe4210cf5e77ae25045b7066abfe195b7ebf9ab16eda829866c0e63a3f4f36fd2097444907470d742255aa89bc65ce509493cfdefe1d1e9cdf2c24957330e",
-          "sha256": "424d551298f4a967fcc88a39667a0522cd33c4529b911f3114b40708502473b2",
-          "sha1": "849a847be0f4b8b0fd3d0ad2ae00fcece36712f8",
-          "md5": "37262bc28030e386d27eedcb8f42cf7e"
+          "name": "core-1.0.0-ofuscated-10.aar",
+          "url": "core-1.0.0-ofuscated-10.aar",
+          "size": 380147,
+          "sha512": "f94a291e4258ba7fefec65140dc674784de04555c9915e99622d2cdaf6a7762394dcf91035e1aa52282315e4ecdf4c4c527161e227716390f68960678ee1dd19",
+          "sha256": "b703df02b43fd3685746ab53d9a110310c3bcdcc991e460a926cedf9f9c96033",
+          "sha1": "d149af87f5d731fe00e2aad21e81661225526334",
+          "md5": "137b8ccb01efb5438e302d146e484fbe"
         }
       ]
     },
@@ -223,21 +223,21 @@
           "group": "br.com.oiti.certiface",
           "module": "facetec",
           "version": {
-            "requires": "0.1.1"
+            "requires": "0.1.2"
           }
         },
         {
           "group": "br.com.oiti.certiface",
           "module": "docCore",
           "version": {
-            "requires": "0.1.1"
+            "requires": "0.1.2"
           }
         },
         {
           "group": "br.com.oiti.certiface",
           "module": "iproov",
           "version": {
-            "requires": "0.1.1"
+            "requires": "0.1.2"
           }
         },
         {
@@ -369,13 +369,13 @@
       ],
       "files": [
         {
-          "name": "core-1.0.0-ofuscated-7.aar",
-          "url": "core-1.0.0-ofuscated-7.aar",
-          "size": 357435,
-          "sha512": "2eebe4210cf5e77ae25045b7066abfe195b7ebf9ab16eda829866c0e63a3f4f36fd2097444907470d742255aa89bc65ce509493cfdefe1d1e9cdf2c24957330e",
-          "sha256": "424d551298f4a967fcc88a39667a0522cd33c4529b911f3114b40708502473b2",
-          "sha1": "849a847be0f4b8b0fd3d0ad2ae00fcece36712f8",
-          "md5": "37262bc28030e386d27eedcb8f42cf7e"
+          "name": "core-1.0.0-ofuscated-10.aar",
+          "url": "core-1.0.0-ofuscated-10.aar",
+          "size": 380147,
+          "sha512": "f94a291e4258ba7fefec65140dc674784de04555c9915e99622d2cdaf6a7762394dcf91035e1aa52282315e4ecdf4c4c527161e227716390f68960678ee1dd19",
+          "sha256": "b703df02b43fd3685746ab53d9a110310c3bcdcc991e460a926cedf9f9c96033",
+          "sha1": "d149af87f5d731fe00e2aad21e81661225526334",
+          "md5": "137b8ccb01efb5438e302d146e484fbe"
         }
       ]
     },
@@ -391,13 +391,13 @@
       },
       "files": [
         {
-          "name": "core-1.0.0-ofuscated-7-sources.jar",
-          "url": "core-1.0.0-ofuscated-7-sources.jar",
-          "size": 109091,
-          "sha512": "409bca6bd850b24c386f27dd1fd050b6bd2d7a2303254bde1aa2608bff05b4bb33a0c40058e20606492a673fdf2cd52d574bee5822967779c8adce01bd68533d",
-          "sha256": "e48bfb347659b3ff0ac91cfda503eb9fa5fd13b237d60e800e87b7e6e08230d0",
-          "sha1": "c48a0cd7ff10f34d5e3257065a70f9667b90f0b8",
-          "md5": "4bc63f707e78019f49dc1fbd491dc583"
+          "name": "core-1.0.0-ofuscated-10-sources.jar",
+          "url": "core-1.0.0-ofuscated-10-sources.jar",
+          "size": 109743,
+          "sha512": "ed3885e29c2f48b5b07a326a77cf2670fd6be3c725b7f2c93ffd5288f3c2682a5c43fe737872c2f5a953c339093ba30577f038b09af7a5d1d58aedfccc0c9ff6",
+          "sha256": "9832862db402002ba5072bb4c336376d403f76399c159ff4b81b9bb429668b0d",
+          "sha1": "6ffbb4115ab9f9652abbde4beb3c7fbc6b828b00",
+          "md5": "e430e1c19979d24cadcc78a5b5c53456"
         }
       ]
     }
