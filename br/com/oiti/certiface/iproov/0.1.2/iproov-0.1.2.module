@@ -2,8 +2,8 @@
   "formatVersion": "1.1",
   "component": {
     "group": "br.com.oiti.certiface",
-    "module": "core",
-    "version": "1.0.0-ofuscated-4",
+    "module": "iproov",
+    "version": "0.1.2",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -23,6 +23,13 @@
       },
       "dependencies": [
         {
+          "group": "com.iproov.sdk",
+          "module": "iproov",
+          "version": {
+            "requires": "9.1.1"
+          }
+        },
+        {
           "group": "androidx.databinding",
           "module": "viewbinding",
           "version": {
@@ -39,13 +46,13 @@
       ],
       "files": [
         {
-          "name": "core-1.0.0-ofuscated-4.aar",
-          "url": "core-1.0.0-ofuscated-4.aar",
-          "size": 335512,
-          "sha512": "cb6029c1920cd0d8651746d9040c7c62a88c96c4ca57cca6b0e64b8fa9ccf811be838ef5176d2937e23017bf7fbbc09242a40e8869f06c0cde34868d94833494",
-          "sha256": "90134d83e6759c3123f3547333fed895081c90a6a1c0dd6eed40353ec07be140",
-          "sha1": "782cf9f6f771751e96eaa99bea20d12cbd0abbd9",
-          "md5": "527b4f28f2ae30875ce4e81c04ffa4ff"
+          "name": "iproov-0.1.2.aar",
+          "url": "iproov-0.1.2.aar",
+          "size": 157526,
+          "sha512": "e88204b034fbda63b006bc9e3b47e01dc6c6a3d0a4f1141366c05e812c07be5ed22fa022a5b8acae61beeb2219d003544867ba1073b506b6563bfd20be130523",
+          "sha256": "035164e1b22f5ef8a389cb2b25bb610e46c02468eb40b6fb023165785ab60c95",
+          "sha1": "33f97cb001dfc3a66dd0fc3a4e74768d3104d0ae",
+          "md5": "6b8a5a381a440a2be50e15b1ea42718f"
         }
       ]
     },
@@ -58,8 +65,29 @@
       },
       "dependencies": [
         {
+          "group": "com.iproov.android-api-client",
+          "module": "kotlin-retrofit",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
           "group": "androidx.lifecycle",
           "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.8.3"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
           "version": {
             "requires": "2.8.3"
           }
@@ -164,10 +192,10 @@
           }
         },
         {
-          "group": "androidx.lifecycle",
-          "module": "lifecycle-viewmodel-compose",
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
           "version": {
-            "requires": "2.8.3"
+            "requires": "2.7.7"
           }
         },
         {
@@ -185,94 +213,31 @@
           }
         },
         {
-          "group": "com.android.support",
-          "module": "support-annotations",
-          "version": {
-            "requires": "28.0.0"
-          }
-        },
-        {
-          "group": "androidx.startup",
-          "module": "startup-runtime",
-          "version": {
-            "requires": "1.1.1"
-          }
-        },
-        {
-          "group": "androidx.hilt",
-          "module": "hilt-work",
-          "version": {
-            "requires": "1.2.0"
-          }
-        },
-        {
           "group": "br.com.oiti.certiface",
-          "module": "multimedia",
+          "module": "remote",
           "version": {
-            "requires": "0.1.0"
+            "requires": "0.1.1"
           }
         },
         {
           "group": "br.com.oiti.certiface",
           "module": "designSystem",
           "version": {
-            "requires": "0.1.0"
-          }
-        },
-        {
-          "group": "br.com.oiti.certiface",
-          "module": "facetec",
-          "version": {
-            "requires": "0.1.0"
-          }
-        },
-        {
-          "group": "br.com.oiti.certiface",
-          "module": "docCore",
-          "version": {
-            "requires": "0.1.0"
-          }
-        },
-        {
-          "group": "br.com.oiti.certiface",
-          "module": "iproov",
-          "version": {
-            "requires": "0.1.0"
-          }
-        },
-        {
-          "group": "br.com.oiti.certiface",
-          "module": "remote",
-          "version": {
-            "requires": "0.1.0"
-          }
-        },
-        {
-          "group": "br.com.oiti.certiface",
-          "module": "local",
-          "version": {
-            "requires": "0.1.0"
-          }
-        },
-        {
-          "group": "br.com.oiti.certiface",
-          "module": "deviceIntelligence",
-          "version": {
-            "requires": "0.1.0"
+            "requires": "0.1.1"
           }
         },
         {
           "group": "br.com.oiti.certiface",
           "module": "commons",
           "version": {
-            "requires": "0.1.0"
+            "requires": "0.1.1"
           }
         },
         {
-          "group": "com.squareup.retrofit2",
-          "module": "retrofit",
+          "group": "com.google.accompanist",
+          "module": "accompanist-permissions",
           "version": {
-            "requires": "2.11.0"
+            "requires": "0.34.0"
           }
         },
         {
@@ -353,6 +318,20 @@
           }
         },
         {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk16",
+          "version": {
+            "requires": "1.46"
+          }
+        },
+        {
+          "group": "com.iproov.sdk",
+          "module": "iproov",
+          "version": {
+            "requires": "9.1.1"
+          }
+        },
+        {
           "group": "androidx.databinding",
           "module": "viewbinding",
           "version": {
@@ -369,13 +348,13 @@
       ],
       "files": [
         {
-          "name": "core-1.0.0-ofuscated-4.aar",
-          "url": "core-1.0.0-ofuscated-4.aar",
-          "size": 335512,
-          "sha512": "cb6029c1920cd0d8651746d9040c7c62a88c96c4ca57cca6b0e64b8fa9ccf811be838ef5176d2937e23017bf7fbbc09242a40e8869f06c0cde34868d94833494",
-          "sha256": "90134d83e6759c3123f3547333fed895081c90a6a1c0dd6eed40353ec07be140",
-          "sha1": "782cf9f6f771751e96eaa99bea20d12cbd0abbd9",
-          "md5": "527b4f28f2ae30875ce4e81c04ffa4ff"
+          "name": "iproov-0.1.2.aar",
+          "url": "iproov-0.1.2.aar",
+          "size": 157526,
+          "sha512": "e88204b034fbda63b006bc9e3b47e01dc6c6a3d0a4f1141366c05e812c07be5ed22fa022a5b8acae61beeb2219d003544867ba1073b506b6563bfd20be130523",
+          "sha256": "035164e1b22f5ef8a389cb2b25bb610e46c02468eb40b6fb023165785ab60c95",
+          "sha1": "33f97cb001dfc3a66dd0fc3a4e74768d3104d0ae",
+          "md5": "6b8a5a381a440a2be50e15b1ea42718f"
         }
       ]
     },
@@ -391,13 +370,13 @@
       },
       "files": [
         {
-          "name": "core-1.0.0-ofuscated-4-sources.jar",
-          "url": "core-1.0.0-ofuscated-4-sources.jar",
-          "size": 108645,
-          "sha512": "e12cc760391c295c511967a8f14dc71683112b0987bec4fa136a43ebf9e94a790924901632a984d992da83ea25ffc23222ca39f2ed24744f63ca41ed27ec7486",
-          "sha256": "c2fb0c47c0d02eba2a7964ca33878c4e032da8031a000da95691b09f870eed48",
-          "sha1": "cf3b9cd5efa74e277f16d59620980cc6ee2178fa",
-          "md5": "aa5cd579d5d0bbf9d4e2447850e91bbe"
+          "name": "iproov-0.1.2-sources.jar",
+          "url": "iproov-0.1.2-sources.jar",
+          "size": 32925,
+          "sha512": "8911f93334f4f08a870292007cbbe5a0bc24033415b7ded51b9ffd9b042f8f91067be2654597c6b4d054fe3ab6f1c48c293dc4be38a08d1a1914f006604d5100",
+          "sha256": "b583cd3e6e4f61204e4e2795efdd4fdc7285e225a993b1490a09c03824dc3230",
+          "sha1": "51215a9f801687cdf1f64c1f18e33275cf239971",
+          "md5": "3f6d23cb0a6bb002dfe9ae3677d2c50e"
         }
       ]
     }

@@ -2,8 +2,8 @@
   "formatVersion": "1.1",
   "component": {
     "group": "br.com.oiti.certiface",
-    "module": "core",
-    "version": "1.0.0-ofuscated-2",
+    "module": "facetec",
+    "version": "0.1.2",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -39,13 +39,13 @@
       ],
       "files": [
         {
-          "name": "core-1.0.0-ofuscated-2.aar",
-          "url": "core-1.0.0-ofuscated-2.aar",
-          "size": 255139,
-          "sha512": "e73fa9670fc744f9af92d531985d1366d5363e006e67cd255d563b2e662a1c981e3c18ab1a7f192181730ab15193a853a17cc909fc436e668d7736896a4640db",
-          "sha256": "461f9cb71f648836fb2bfea85c4485589f14e2e95bca0067cbdb36b6eb6ecc79",
-          "sha1": "206fb645f93a6f2ef0c5223407e4ad44c0441966",
-          "md5": "e90b2a41b0c3efc6a21a5396c182e679"
+          "name": "facetec-0.1.2.aar",
+          "url": "facetec-0.1.2.aar",
+          "size": 2284785,
+          "sha512": "f54d89f1c7185e017495cbd4cd9fdadf0225c1b68cd7726c79655dcae89200d558fe792b10a5fdeb5507e472df43632392741644c6f5f0dfb5754c011b3037ba",
+          "sha256": "7e9c1d05f1955d811a1e41c45d0b14f1d481d7e2575e1100661727aa76c4886c",
+          "sha1": "d9530b5de24ba7dee3d2384d6610e38a29be41ca",
+          "md5": "fe6f05610ef5fa1ca1cefcc15cac19d0"
         }
       ]
     },
@@ -58,8 +58,22 @@
       },
       "dependencies": [
         {
+          "group": "com.facetec",
+          "module": "sdk",
+          "version": {
+            "requires": "9.6.96"
+          }
+        },
+        {
           "group": "androidx.lifecycle",
           "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.8.3"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
           "version": {
             "requires": "2.8.3"
           }
@@ -93,12 +107,12 @@
           }
         },
         {
-          "group": "androidx.compose.material3",
-          "module": "material3"
-        },
-        {
           "group": "androidx.compose.material",
           "module": "material"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
         },
         {
           "group": "androidx.compose.foundation",
@@ -164,10 +178,10 @@
           }
         },
         {
-          "group": "androidx.lifecycle",
-          "module": "lifecycle-viewmodel-compose",
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
           "version": {
-            "requires": "2.8.3"
+            "requires": "2.7.7"
           }
         },
         {
@@ -185,87 +199,31 @@
           }
         },
         {
-          "group": "com.android.support",
-          "module": "support-annotations",
-          "version": {
-            "requires": "28.0.0"
-          }
-        },
-        {
-          "group": "androidx.startup",
-          "module": "startup-runtime",
-          "version": {
-            "requires": "1.1.1"
-          }
-        },
-        {
-          "group": "androidx.hilt",
-          "module": "hilt-work",
-          "version": {
-            "requires": "1.2.0"
-          }
-        },
-        {
-          "group": "br.com.oiti.certiface",
-          "module": "multimedia",
-          "version": {
-            "requires": "1.0.0"
-          }
-        },
-        {
           "group": "br.com.oiti.certiface",
           "module": "designSystem",
           "version": {
-            "requires": "1.0.0"
-          }
-        },
-        {
-          "group": "br.com.oiti.certiface",
-          "module": "facetec",
-          "version": {
-            "requires": "1.0.0"
-          }
-        },
-        {
-          "group": "br.com.oiti.certiface",
-          "module": "docCore",
-          "version": {
-            "requires": "1.0.0"
-          }
-        },
-        {
-          "group": "br.com.oiti.certiface",
-          "module": "iproov",
-          "version": {
-            "requires": "1.0.0"
+            "requires": "0.1.1"
           }
         },
         {
           "group": "br.com.oiti.certiface",
           "module": "remote",
           "version": {
-            "requires": "1.0.0"
-          }
-        },
-        {
-          "group": "br.com.oiti.certiface",
-          "module": "local",
-          "version": {
-            "requires": "1.0.0"
-          }
-        },
-        {
-          "group": "br.com.oiti.certiface",
-          "module": "deviceIntelligence",
-          "version": {
-            "requires": "1.0.0"
+            "requires": "0.1.1"
           }
         },
         {
           "group": "br.com.oiti.certiface",
           "module": "commons",
           "version": {
-            "requires": "1.0.0"
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-permissions",
+          "version": {
+            "requires": "0.34.0"
           }
         },
         {
@@ -353,6 +311,13 @@
           }
         },
         {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk16",
+          "version": {
+            "requires": "1.46"
+          }
+        },
+        {
           "group": "androidx.databinding",
           "module": "viewbinding",
           "version": {
@@ -369,13 +334,13 @@
       ],
       "files": [
         {
-          "name": "core-1.0.0-ofuscated-2.aar",
-          "url": "core-1.0.0-ofuscated-2.aar",
-          "size": 255139,
-          "sha512": "e73fa9670fc744f9af92d531985d1366d5363e006e67cd255d563b2e662a1c981e3c18ab1a7f192181730ab15193a853a17cc909fc436e668d7736896a4640db",
-          "sha256": "461f9cb71f648836fb2bfea85c4485589f14e2e95bca0067cbdb36b6eb6ecc79",
-          "sha1": "206fb645f93a6f2ef0c5223407e4ad44c0441966",
-          "md5": "e90b2a41b0c3efc6a21a5396c182e679"
+          "name": "facetec-0.1.2.aar",
+          "url": "facetec-0.1.2.aar",
+          "size": 2284785,
+          "sha512": "f54d89f1c7185e017495cbd4cd9fdadf0225c1b68cd7726c79655dcae89200d558fe792b10a5fdeb5507e472df43632392741644c6f5f0dfb5754c011b3037ba",
+          "sha256": "7e9c1d05f1955d811a1e41c45d0b14f1d481d7e2575e1100661727aa76c4886c",
+          "sha1": "d9530b5de24ba7dee3d2384d6610e38a29be41ca",
+          "md5": "fe6f05610ef5fa1ca1cefcc15cac19d0"
         }
       ]
     },
@@ -391,13 +356,13 @@
       },
       "files": [
         {
-          "name": "core-1.0.0-ofuscated-2-sources.jar",
-          "url": "core-1.0.0-ofuscated-2-sources.jar",
-          "size": 108575,
-          "sha512": "346ee27a6c4f1b5af734047753e5a000d72bee2079d869e909dbb31974fb4e976f154b0fbcd2b5b2460549dd67dcdfde8675f3f47b3b50941dbc38a55afa566f",
-          "sha256": "0024ccbf66c4eeb65eb56b26982357bea20d4cf4daffb52262fcaee6dfe55f4b",
-          "sha1": "9d28d63847c96bc24e13458507cbdc4b24522697",
-          "md5": "85052259082de2f595e82b4ae28ad960"
+          "name": "facetec-0.1.2-sources.jar",
+          "url": "facetec-0.1.2-sources.jar",
+          "size": 78741,
+          "sha512": "ac1e55a3eb7b882f406924c2574749ce9fff42968ca93d8b05241665e6bbfd5f6d69681c952bd0c9e5857b5c824edcd114d4528e21f383c7bdf6f6dd5c4f8ab5",
+          "sha256": "6307774aa8e4ed5582128900d8a2ced8d580dee5d8ce7af91a326a603bc013af",
+          "sha1": "63856fe31e27abbcb380a2e328135176ac4b5e88",
+          "md5": "adf4e05edb930e67681e1d64f9ab14e0"
         }
       ]
     }

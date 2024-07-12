@@ -8,8 +8,8 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.com.oiti.certiface</groupId>
-  <artifactId>core</artifactId>
-  <version>1.0.0-ofuscated-4</version>
+  <artifactId>facetec</artifactId>
+  <version>0.1.2</version>
   <packaging>aar</packaging>
   <dependencyManagement>
     <dependencies>
@@ -36,8 +36,20 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>com.facetec</groupId>
+      <artifactId>sdk</artifactId>
+      <version>9.6.96</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-viewmodel-ktx</artifactId>
+      <version>2.8.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-viewmodel-compose</artifactId>
       <version>2.8.3</version>
       <scope>runtime</scope>
     </dependency>
@@ -66,13 +78,13 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>androidx.compose.material3</groupId>
-      <artifactId>material3</artifactId>
+      <groupId>androidx.compose.material</groupId>
+      <artifactId>material</artifactId>
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>androidx.compose.material</groupId>
-      <artifactId>material</artifactId>
+      <groupId>androidx.compose.material3</groupId>
+      <artifactId>material3</artifactId>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -134,9 +146,9 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>androidx.lifecycle</groupId>
-      <artifactId>lifecycle-viewmodel-compose</artifactId>
-      <version>2.8.3</version>
+      <groupId>androidx.navigation</groupId>
+      <artifactId>navigation-compose</artifactId>
+      <version>2.7.7</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -152,75 +164,27 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>com.android.support</groupId>
-      <artifactId>support-annotations</artifactId>
-      <version>28.0.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.startup</groupId>
-      <artifactId>startup-runtime</artifactId>
-      <version>1.1.1</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.hilt</groupId>
-      <artifactId>hilt-work</artifactId>
-      <version>1.2.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>br.com.oiti.certiface</groupId>
-      <artifactId>multimedia</artifactId>
-      <version>0.1.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
       <groupId>br.com.oiti.certiface</groupId>
       <artifactId>designSystem</artifactId>
-      <version>0.1.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>br.com.oiti.certiface</groupId>
-      <artifactId>facetec</artifactId>
-      <version>0.1.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>br.com.oiti.certiface</groupId>
-      <artifactId>docCore</artifactId>
-      <version>0.1.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>br.com.oiti.certiface</groupId>
-      <artifactId>iproov</artifactId>
-      <version>0.1.0</version>
+      <version>0.1.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>br.com.oiti.certiface</groupId>
       <artifactId>remote</artifactId>
-      <version>0.1.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>br.com.oiti.certiface</groupId>
-      <artifactId>local</artifactId>
-      <version>0.1.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>br.com.oiti.certiface</groupId>
-      <artifactId>deviceIntelligence</artifactId>
-      <version>0.1.0</version>
+      <version>0.1.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>br.com.oiti.certiface</groupId>
       <artifactId>commons</artifactId>
-      <version>0.1.0</version>
+      <version>0.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.accompanist</groupId>
+      <artifactId>accompanist-permissions</artifactId>
+      <version>0.34.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -293,6 +257,12 @@
       <groupId>com.google.android.gms</groupId>
       <artifactId>play-services-location</artifactId>
       <version>21.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcprov-jdk16</artifactId>
+      <version>1.46</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
