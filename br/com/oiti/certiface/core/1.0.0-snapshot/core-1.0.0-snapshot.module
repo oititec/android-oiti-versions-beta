@@ -41,11 +41,11 @@
         {
           "name": "core-1.0.0-snapshot.aar",
           "url": "core-1.0.0-snapshot.aar",
-          "size": 442599,
-          "sha512": "305ca5ffbb3f5ea8cdbcff699d3034047d75358b2b6c9c4dfd462a27062044aaa5a2ffebdd90deda3e2b056dfd28eef8c8fe9a76f3386a680e45160ffa5dbba2",
-          "sha256": "4a22e1abf9b50468ca4053fa2df40f611004d3f7f8cb2ff954378692ae1c2e3a",
-          "sha1": "efd93b996be25b72497f91f4dc79a384d4b20e27",
-          "md5": "118445c7b0b4b285998a83cbc791be4e"
+          "size": 442382,
+          "sha512": "71f4e7d4f4cbac917cd677ea681d2defd334766f4b12f7b25f0317ea834e21b5656f804961b454e3a008b5e8ef523a91dfcce9e2b2a08d433658edbd260d09b2",
+          "sha256": "680bddabad33db4ff92d492217eeb404294701f4f08e354ef29f65d7dfe02b67",
+          "sha1": "adc36c23c4a351a0fda18bf0675b11f81cdceb80",
+          "md5": "8313b08fe97ee994e800c2d10955b098"
         }
       ]
     },
@@ -185,10 +185,10 @@
           }
         },
         {
-          "group": "com.android.support",
-          "module": "support-annotations",
+          "group": "androidx.annotation",
+          "module": "annotation",
           "version": {
-            "requires": "28.0.0"
+            "requires": "1.8.0"
           }
         },
         {
@@ -371,11 +371,11 @@
         {
           "name": "core-1.0.0-snapshot.aar",
           "url": "core-1.0.0-snapshot.aar",
-          "size": 442599,
-          "sha512": "305ca5ffbb3f5ea8cdbcff699d3034047d75358b2b6c9c4dfd462a27062044aaa5a2ffebdd90deda3e2b056dfd28eef8c8fe9a76f3386a680e45160ffa5dbba2",
-          "sha256": "4a22e1abf9b50468ca4053fa2df40f611004d3f7f8cb2ff954378692ae1c2e3a",
-          "sha1": "efd93b996be25b72497f91f4dc79a384d4b20e27",
-          "md5": "118445c7b0b4b285998a83cbc791be4e"
+          "size": 442382,
+          "sha512": "71f4e7d4f4cbac917cd677ea681d2defd334766f4b12f7b25f0317ea834e21b5656f804961b454e3a008b5e8ef523a91dfcce9e2b2a08d433658edbd260d09b2",
+          "sha256": "680bddabad33db4ff92d492217eeb404294701f4f08e354ef29f65d7dfe02b67",
+          "sha1": "adc36c23c4a351a0fda18bf0675b11f81cdceb80",
+          "md5": "8313b08fe97ee994e800c2d10955b098"
         }
       ]
     },
@@ -393,11 +393,11 @@
         {
           "name": "core-1.0.0-snapshot-sources.jar",
           "url": "core-1.0.0-snapshot-sources.jar",
-          "size": 108937,
-          "sha512": "8d69a97fabcc6aacd6bfc0e10d2cf76de3883f5a242c463fdf84e044f71722cc9bc2315afda4d7e67e3310047bbafcd117c26e15e9580912b857def8fc6b6ba6",
-          "sha256": "f78e92b21f202ccae3ee999696165b325c03bc1b2dd41ae0e1207f99e8529b2c",
-          "sha1": "e0c097aea6b709e33c699721d6b901f2f11d18dd",
-          "md5": "92a252d33c53419c25f7618fec5f39b9"
+          "size": 108795,
+          "sha512": "9d499f970a73f6752a3bc497111b05072b7d7b60ecb1b69facac76880b975efe88eec4bba30c01b95cd031c3d363a046a204614c37d973078a637828452aeaf2",
+          "sha256": "f4abdba31d839f9948f934f71c1901756236cdf79c1f6a01f94560092024816a",
+          "sha1": "f77dee0d8d70424f0bf45075d4a4a7bd5c68714a",
+          "md5": "8c93b599c723803245ceb8392af2aa77"
         }
       ]
     }
