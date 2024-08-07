@@ -194,7 +194,7 @@
           "group": "br.com.oiti",
           "module": "security",
           "version": {
-            "requires": "3.1.0"
+            "requires": "3.1.1"
           }
         }
       ],
