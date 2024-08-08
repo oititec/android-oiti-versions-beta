@@ -48,11 +48,11 @@
         {
           "name": "liveness2d-sdk-6.1.3.aar",
           "url": "liveness2d-sdk-6.1.3.aar",
-          "size": 2633971,
-          "sha512": "81f3c25c03c7539412bac34b4e0548b8c2cd545dc6cb49bd7a6f0f5a83ede896284446d8c679aa4cec97c4db9d5d7492d2fce29e46d78956e6c077b6249fec5a",
-          "sha256": "6d05d9d73fced7f053fceee911531462c59b4e27d49067ea2e29047bb1449484",
-          "sha1": "3fefdd8e9c5ea0d8f2d8ecf24a9e868e9dda3f86",
-          "md5": "ad0c820a1c3e2fd0cadb29a311d69db1"
+          "size": 2633977,
+          "sha512": "8f03a66e6f26163a5b668a239012303ce9d4da2b3815c75dfe92b6347d303bf88f718e28b927c785d8f824afa63d21858d242992a947e2e9acb436cf4c21168a",
+          "sha256": "6fdeb4f325176d58a72b09a8c6975b1ae0ad71fc5e4664d9ddc6a229b6c75cbd",
+          "sha1": "a52881340cd3ba151815518232ba99218d2a2c8e",
+          "md5": "b6d67fbb72ef7f46c910572b888df43e"
         }
       ]
     },
@@ -202,11 +202,11 @@
         {
           "name": "liveness2d-sdk-6.1.3.aar",
           "url": "liveness2d-sdk-6.1.3.aar",
-          "size": 2633971,
-          "sha512": "81f3c25c03c7539412bac34b4e0548b8c2cd545dc6cb49bd7a6f0f5a83ede896284446d8c679aa4cec97c4db9d5d7492d2fce29e46d78956e6c077b6249fec5a",
-          "sha256": "6d05d9d73fced7f053fceee911531462c59b4e27d49067ea2e29047bb1449484",
-          "sha1": "3fefdd8e9c5ea0d8f2d8ecf24a9e868e9dda3f86",
-          "md5": "ad0c820a1c3e2fd0cadb29a311d69db1"
+          "size": 2633977,
+          "sha512": "8f03a66e6f26163a5b668a239012303ce9d4da2b3815c75dfe92b6347d303bf88f718e28b927c785d8f824afa63d21858d242992a947e2e9acb436cf4c21168a",
+          "sha256": "6fdeb4f325176d58a72b09a8c6975b1ae0ad71fc5e4664d9ddc6a229b6c75cbd",
+          "sha1": "a52881340cd3ba151815518232ba99218d2a2c8e",
+          "md5": "b6d67fbb72ef7f46c910572b888df43e"
         }
       ]
     }
