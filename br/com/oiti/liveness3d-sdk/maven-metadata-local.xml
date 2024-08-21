@@ -3,8 +3,8 @@
   <groupId>br.com.oiti</groupId>
   <artifactId>liveness3d-sdk</artifactId>
   <versioning>
-    <latest>9.3.0-snapshot-facetec</latest>
-    <release>9.3.0-snapshot-facetec</release>
+    <latest>9.3.0_beta</latest>
+    <release>9.3.0_beta</release>
     <versions>
       <version>6.0</version>
       <version>6.1</version>
@@ -33,6 +33,7 @@
       <version>9.2.9</version>
       <version>9.3.0-snapshot</version>
       <version>9.3.0-snapshot-facetec</version>
+      <version>9.3.0_beta</version>
     </versions>
     <lastUpdated>20240516081428</lastUpdated>
   </versioning>
