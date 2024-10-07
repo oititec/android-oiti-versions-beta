@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>br.com.oiti</groupId>
+  <artifactId>liveness2d-sdk</artifactId>
+  <versioning>
+    <lastUpdated>20241007193032</lastUpdated>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>6.1.4-snapshot</value>
+        <updated>20241007193032</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>6.1.4-snapshot</value>
+        <updated>20241007193032</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>6.1.4-snapshot</value>
+        <updated>20241007193032</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>6.1.4-snapshot</version>
+</metadata>
