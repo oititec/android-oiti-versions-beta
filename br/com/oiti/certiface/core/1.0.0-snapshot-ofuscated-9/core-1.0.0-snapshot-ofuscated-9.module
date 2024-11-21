@@ -3,7 +3,7 @@
   "component": {
     "group": "br.com.oiti.certiface",
     "module": "core",
-    "version": "1.0.0-snapshot-ofuscated-6",
+    "version": "1.0.0-snapshot-ofuscated-9",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -39,13 +39,13 @@
       ],
       "files": [
         {
-          "name": "core-1.0.0-snapshot-ofuscated-6.aar",
-          "url": "core-1.0.0-snapshot-ofuscated-6.aar",
-          "size": 457655,
-          "sha512": "3085658bf96573183ce68ef4ab9f7f5a09154f8a4d92d8b77914361fc1300f33c8af707d0600991e1de5dd377f47697e4d5bd0ce4bd8e8c708393e850e68db19",
-          "sha256": "10dc0fa028b375ee3f719027ae8ab4a01074e366be49d32cd07278bbefb6d165",
-          "sha1": "4560b012f47feaec34815eb76737b164c1ec61a1",
-          "md5": "405365a4f77cac06d8375c34bbb72bcb"
+          "name": "core-1.0.0-snapshot-ofuscated-9.aar",
+          "url": "core-1.0.0-snapshot-ofuscated-9.aar",
+          "size": 366805,
+          "sha512": "86e2c441c1e9ca36bcdb91b45974432bf80730b30764da72603f6a73b5a44ed4153ea884a16273e264da74605a74daa78c6fed7627eb8b0904125bd571a6b346",
+          "sha256": "ccd1de2bea70ef5fcc3c9937ff932333e0e03d7ed901e0ed126b0d24847af8bd",
+          "sha1": "cf9fac2ac86e7c900b438798a7524aab56a0067d",
+          "md5": "6586c463c12a5684f7cc05d99e55db8f"
         }
       ]
     },
@@ -376,13 +376,13 @@
       ],
       "files": [
         {
-          "name": "core-1.0.0-snapshot-ofuscated-6.aar",
-          "url": "core-1.0.0-snapshot-ofuscated-6.aar",
-          "size": 457655,
-          "sha512": "3085658bf96573183ce68ef4ab9f7f5a09154f8a4d92d8b77914361fc1300f33c8af707d0600991e1de5dd377f47697e4d5bd0ce4bd8e8c708393e850e68db19",
-          "sha256": "10dc0fa028b375ee3f719027ae8ab4a01074e366be49d32cd07278bbefb6d165",
-          "sha1": "4560b012f47feaec34815eb76737b164c1ec61a1",
-          "md5": "405365a4f77cac06d8375c34bbb72bcb"
+          "name": "core-1.0.0-snapshot-ofuscated-9.aar",
+          "url": "core-1.0.0-snapshot-ofuscated-9.aar",
+          "size": 366805,
+          "sha512": "86e2c441c1e9ca36bcdb91b45974432bf80730b30764da72603f6a73b5a44ed4153ea884a16273e264da74605a74daa78c6fed7627eb8b0904125bd571a6b346",
+          "sha256": "ccd1de2bea70ef5fcc3c9937ff932333e0e03d7ed901e0ed126b0d24847af8bd",
+          "sha1": "cf9fac2ac86e7c900b438798a7524aab56a0067d",
+          "md5": "6586c463c12a5684f7cc05d99e55db8f"
         }
       ]
     },
@@ -398,8 +398,8 @@
       },
       "files": [
         {
-          "name": "core-1.0.0-snapshot-ofuscated-6-sources.jar",
-          "url": "core-1.0.0-snapshot-ofuscated-6-sources.jar",
+          "name": "core-1.0.0-snapshot-ofuscated-9-sources.jar",
+          "url": "core-1.0.0-snapshot-ofuscated-9-sources.jar",
           "size": 141856,
           "sha512": "158a8351dfbccc0ad7b06b9449060504819964e880af9a60d6e2ac3a8b58b2499c3859991b1eb223f2bf50e707b171ca1f688e0f68b17cb34409e52554d87fc7",
           "sha256": "fe290280c0bac8b265aee40d2379a448dd82bd2b42d0d051ac3370f7803d58d9",

@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.com.oiti.certiface</groupId>
   <artifactId>core</artifactId>
-  <version>1.0.0-snapshot-ofuscated-1</version>
+  <version>1.0.0-snapshot-ofuscated-9</version>
   <packaging>aar</packaging>
   <dependencyManagement>
     <dependencies>
@@ -293,12 +293,6 @@
       <groupId>com.google.android.gms</groupId>
       <artifactId>play-services-location</artifactId>
       <version>21.3.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>commons-codec</groupId>
-      <artifactId>commons-codec</artifactId>
-      <version>1.15</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
