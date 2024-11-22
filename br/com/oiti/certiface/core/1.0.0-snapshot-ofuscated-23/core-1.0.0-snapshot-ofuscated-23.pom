@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.com.oiti.certiface</groupId>
   <artifactId>core</artifactId>
-  <version>1.0.0-snapshot-ofuscated-8</version>
+  <version>1.0.0-snapshot-ofuscated-23</version>
   <packaging>aar</packaging>
   <dependencyManagement>
     <dependencies>
@@ -172,55 +172,55 @@
     <dependency>
       <groupId>br.com.oiti.certiface</groupId>
       <artifactId>multimedia</artifactId>
-      <version>1.0.0-snapshot-3</version>
+      <version>1.0.0-snapshot-ofuscated-12</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>br.com.oiti.certiface</groupId>
       <artifactId>designSystem</artifactId>
-      <version>1.0.0-snapshot-3</version>
+      <version>1.0.0-snapshot-ofuscated-12</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>br.com.oiti.certiface</groupId>
       <artifactId>facetec</artifactId>
-      <version>1.0.0-snapshot-3</version>
+      <version>1.0.0-snapshot-ofuscated-12</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>br.com.oiti.certiface</groupId>
       <artifactId>docCore</artifactId>
-      <version>1.0.0-snapshot-3</version>
+      <version>1.0.0-snapshot-ofuscated-12</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>br.com.oiti.certiface</groupId>
       <artifactId>remote</artifactId>
-      <version>1.0.0-snapshot-3</version>
+      <version>1.0.0-snapshot-ofuscated-12</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>br.com.oiti.certiface</groupId>
       <artifactId>local</artifactId>
-      <version>1.0.0-snapshot-3</version>
+      <version>1.0.0-snapshot-ofuscated-12</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>br.com.oiti.certiface</groupId>
       <artifactId>deviceIntelligence</artifactId>
-      <version>1.0.0-snapshot-3</version>
+      <version>1.0.0-snapshot-ofuscated-12</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>br.com.oiti.certiface</groupId>
       <artifactId>commons</artifactId>
-      <version>1.0.0-snapshot-3</version>
+      <version>1.0.0-snapshot-ofuscated-12</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>br.com.oiti.certiface</groupId>
       <artifactId>liveness2d</artifactId>
-      <version>1.0.0-snapshot-3</version>
+      <version>1.0.0-snapshot-ofuscated-12</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
