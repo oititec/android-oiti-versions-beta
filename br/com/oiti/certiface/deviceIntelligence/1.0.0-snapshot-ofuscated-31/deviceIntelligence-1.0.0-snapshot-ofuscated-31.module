@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.oiti.certiface",
+    "module": "deviceIntelligence",
+    "version": "1.0.0-snapshot-ofuscated-31",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "deviceIntelligence-1.0.0-snapshot-ofuscated-31.aar",
+          "url": "deviceIntelligence-1.0.0-snapshot-ofuscated-31.aar",
+          "size": 111634,
+          "sha512": "19ea20a533fad35718201563f8196cf149ed5bbca24d8618d4d83ea55f6578cb7b799691dc3d2fd690295edd8a067515dcf4ae453ce5a14e4f51386aca95a444",
+          "sha256": "7a6c254b7c3d2dcc4f4208747eff13adf357dbfa2da88e9bd6ef8d73e2245f84",
+          "sha1": "73a10ad71b86c1b8be414849bb43b10727206236",
+          "md5": "90bebff3348d0b688f917eba0276d0f5"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "br.com.oiti.certiface",
+          "module": "remote",
+          "version": {
+            "requires": "1.0.0-snapshot-ofuscated-31"
+          }
+        },
+        {
+          "group": "br.com.oiti.certiface",
+          "module": "local",
+          "version": {
+            "requires": "1.0.0-snapshot-ofuscated-31"
+          }
+        },
+        {
+          "group": "io.sentry",
+          "module": "sentry-android",
+          "version": {
+            "requires": "7.14.0"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android",
+          "version": {
+            "requires": "2.51.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "deviceIntelligence-1.0.0-snapshot-ofuscated-31.aar",
+          "url": "deviceIntelligence-1.0.0-snapshot-ofuscated-31.aar",
+          "size": 111634,
+          "sha512": "19ea20a533fad35718201563f8196cf149ed5bbca24d8618d4d83ea55f6578cb7b799691dc3d2fd690295edd8a067515dcf4ae453ce5a14e4f51386aca95a444",
+          "sha256": "7a6c254b7c3d2dcc4f4208747eff13adf357dbfa2da88e9bd6ef8d73e2245f84",
+          "sha1": "73a10ad71b86c1b8be414849bb43b10727206236",
+          "md5": "90bebff3348d0b688f917eba0276d0f5"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "deviceIntelligence-1.0.0-snapshot-ofuscated-31-sources.jar",
+          "url": "deviceIntelligence-1.0.0-snapshot-ofuscated-31-sources.jar",
+          "size": 68405,
+          "sha512": "11fd887a909bbe07faa9883f2adf9574bb2b30ddf2e6d2351292d155f7812c3fbd3aeba91253143fcc9cfc1123723e465362e60c09412c6a996229a1fe1de9dc",
+          "sha256": "711187a304b57e93fca54ffbadfabc65836f0882eb2a02eb69cec50eb398dc9a",
+          "sha1": "2f9e2099f0db7d1bde2956e246bde5ac16d59228",
+          "md5": "3a9494fff17ebc8761c953053aaca1ba"
+        }
+      ]
+    }
+  ]
+}
