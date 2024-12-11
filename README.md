@@ -22,6 +22,7 @@ dependencies {
     implementation 'br.com.oiti:liveness2d-sdk:5.8.0'
 }
 ```
+
 ###  Changelog
 
 - [Detalhes de versões](Liveness2D/Documentation/Changelog.MD)
