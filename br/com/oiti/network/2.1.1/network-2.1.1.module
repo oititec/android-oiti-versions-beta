@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.oiti",
+    "module": "network",
+    "version": "2.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-2.1.1.aar",
+          "url": "network-2.1.1.aar",
+          "size": 30518,
+          "sha512": "99e26a95fd2e8af15e33c536af142b54ab45beb42384ea5290a16035e553f707d47e502e2f79f1d96956d471b2c779304e74dbfaf983a451d939071dad24b616",
+          "sha256": "785c263551d41afb8995cfe43d2a17395dea685c1859b4503d7e5b5bb48fcf5a",
+          "sha1": "38e9f6e346be8d468d34ad141034457176333745",
+          "md5": "108a3d8966bd9376966a535ac171499d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-2.1.1.aar",
+          "url": "network-2.1.1.aar",
+          "size": 30518,
+          "sha512": "99e26a95fd2e8af15e33c536af142b54ab45beb42384ea5290a16035e553f707d47e502e2f79f1d96956d471b2c779304e74dbfaf983a451d939071dad24b616",
+          "sha256": "785c263551d41afb8995cfe43d2a17395dea685c1859b4503d7e5b5bb48fcf5a",
+          "sha1": "38e9f6e346be8d468d34ad141034457176333745",
+          "md5": "108a3d8966bd9376966a535ac171499d"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "network-2.1.1-sources.jar",
+          "url": "network-2.1.1-sources.jar",
+          "size": 14915,
+          "sha512": "2459134a9980da860e920a4e22c95855d03faf3d3bb9c42be0bae541eb19fb405ad6fc267853a04fef7ae3c8c4db6c1f46ae3427229688bf194d89983fadd8c0",
+          "sha256": "d33d7a37d579d2ec1a19149052a9e3d678b5dedefb68b47c24bea56882df3ea6",
+          "sha1": "8d8064bd6692300e6d1f0ba4d891210f5d04880c",
+          "md5": "101c75f41b565c6bc75089c42abbefc3"
+        }
+      ]
+    }
+  ]
+}
