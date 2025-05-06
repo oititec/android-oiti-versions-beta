@@ -114,11 +114,11 @@
         {
           "name": "liveness3d-sdk-9.4.6.aar",
           "url": "liveness3d-sdk-9.4.6.aar",
-          "size": 2354570,
-          "sha512": "433e0e4131c9eb792aff87b9ed2e2a0f2a60c83721e8656c598cd372d33ee2e6e93b70b0a8aa97b52f53b7ebb9ba805aad10850e8ddb941b0811c5d268d11e8f",
-          "sha256": "e87a77461b647db631f83cacf3c9b20fa8d4786921fd9649d0ccd20e52949c6d",
-          "sha1": "669f8adb4a408b383e44a5c8b500e5bfefdf6012",
-          "md5": "3e221887e49ccfbdd933c12c7525c830"
+          "size": 2533525,
+          "sha512": "4e8c6c1738be4fa4521ebba2f067565e8476847a4b524dc3abbe3adca52d3c32c6e20f7ea74246aa12feb11007c1c761fd9257c0097349a6742f813c258b6d44",
+          "sha256": "86f420a132aa7a049ad15920971b48e8469e040677b070ee4e3740abacf4dd1d",
+          "sha1": "49a4e06872e000849672536085bb161390757b34",
+          "md5": "c987eb081160e97374acdeab85e97af9"
         }
       ]
     },
@@ -238,7 +238,7 @@
           "group": "com.facetec",
           "module": "sdk",
           "version": {
-            "requires": "9.7.63"
+            "requires": "9.7.66"
           },
           "excludes": [
             {
@@ -579,11 +579,11 @@
         {
           "name": "liveness3d-sdk-9.4.6.aar",
           "url": "liveness3d-sdk-9.4.6.aar",
-          "size": 2354570,
-          "sha512": "433e0e4131c9eb792aff87b9ed2e2a0f2a60c83721e8656c598cd372d33ee2e6e93b70b0a8aa97b52f53b7ebb9ba805aad10850e8ddb941b0811c5d268d11e8f",
-          "sha256": "e87a77461b647db631f83cacf3c9b20fa8d4786921fd9649d0ccd20e52949c6d",
-          "sha1": "669f8adb4a408b383e44a5c8b500e5bfefdf6012",
-          "md5": "3e221887e49ccfbdd933c12c7525c830"
+          "size": 2533525,
+          "sha512": "4e8c6c1738be4fa4521ebba2f067565e8476847a4b524dc3abbe3adca52d3c32c6e20f7ea74246aa12feb11007c1c761fd9257c0097349a6742f813c258b6d44",
+          "sha256": "86f420a132aa7a049ad15920971b48e8469e040677b070ee4e3740abacf4dd1d",
+          "sha1": "49a4e06872e000849672536085bb161390757b34",
+          "md5": "c987eb081160e97374acdeab85e97af9"
         }
       ]
     }
